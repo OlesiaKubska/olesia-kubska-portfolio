@@ -1,16 +1,41 @@
-import { ProjectsContainer } from "./Projects.styled";
+import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
+import {
+ ProjectsContainer,
+ ProjectLink,
+ ProjectImage,
+} from "./Projects.styled";
+import projectImage from "../../assets/images/projects/water-tracker.jpg";
+import projectHotelImage from "../../assets/images/projects/project-hotel.png";
+import projectFilmImage from "../../assets/images/projects/project-cinemania.png";
+import projectWebImage from "../../assets/images/projects/project-web.png";
 
 const Projects = () => {
  return (
   <ProjectsContainer>
    <h2>My Projects</h2>
    <div>
-    <h3>Water Tracker</h3>
+    <h3>WATER TRACKER</h3>
+    <ProjectImage src={projectImage} alt="Water Tracker Project" />
+    <ProjectLink
+     href="https://water-tracker-app.netlify.app"
+     target="_blank"
+     rel="noopener noreferrer"
+    >
+     <FaExternalLinkAlt size="1.5em" title="Project Page" />
+     Pages
+    </ProjectLink>
     <p>
      [HTML5, CSS3, JavaScript, React, Redux Toolkit, React Router, Axios, Vite,
      Node]
     </p>
-    <a>GitHub</a>
+    <ProjectLink
+     href="https://github.com/YanLozovskyi/water-tracker?tab=readme-ov-file#technologies-used"
+     target="_blank"
+     rel="noopener noreferrer"
+    >
+     <FaGithub size="1.5em" title="GitHub Repository" />
+     GitHub
+    </ProjectLink>
     <p>
      This description highlights your role, key contributions, and the
      technologies you worked with, offering a clear and concise overview of your
@@ -23,8 +48,24 @@ const Projects = () => {
    </div>
    <div>
     <h3>CINEMANIA</h3>
+    <ProjectImage src={projectFilmImage} alt="Cinemania Project" />
+    <ProjectLink
+     href="https://yanlozovskyi.github.io/project-js-web-anonymous/index.html"
+     target="_blank"
+     rel="noopener noreferrer"
+    >
+     <FaExternalLinkAlt size="1.5em" title="Project Page" />
+     Pages
+    </ProjectLink>
     <p>[ JavaScript, HTML5, SCSS, Parcel ]</p>
-    <a>GitHub</a>
+    <ProjectLink
+     href="https://github.com/YanLozovskyi/project-js-web-anonymous"
+     target="_blank"
+     rel="noopener noreferrer"
+    >
+     <FaGithub size="1.5em" title="GitHub Repository" />
+     GitHub
+    </ProjectLink>
     <p>
      In the project, I played a crucial role in developing and enhancing the
      catalog-search section. I was responsible for implementing key
@@ -36,9 +77,25 @@ const Projects = () => {
     </p>
    </div>
    <div>
-    <h3>MIMINO hotel</h3>
+    <h3>MIMINO HOTEL</h3>
+    <ProjectImage src={projectHotelImage} alt="Mimino Hotel Project" />
+    <ProjectLink
+     href="https://vasylkivt.github.io/team-proj-html-css-web-anonymous/restaurant.html"
+     target="_blank"
+     rel="noopener noreferrer"
+    >
+     <FaExternalLinkAlt size="1.5em" title="Project Page" />
+     Pages
+    </ProjectLink>
     <p>[ HTML5, CSS3, JavaScript, Parcel ]</p>
-    <a>GitHub</a>
+    <ProjectLink
+     href="https://github.com/vasylkivt/team-proj-html-css-web-anonymous"
+     target="_blank"
+     rel="noopener noreferrer"
+    >
+     <FaGithub size="1.5em" title="GitHub Repository" />
+     GitHub
+    </ProjectLink>
     <p>
      Within the project, my primary focus was on designing and developing the
      restaurant menu section. I leveraged HTML5 and CSS3 to create an appealing
@@ -50,8 +107,24 @@ const Projects = () => {
    </div>
    <div>
     <h3>WEBSTUDIO</h3>
+    <ProjectImage src={projectWebImage} alt="Web Studio Project" />
+    <ProjectLink
+     href="https://olesiakubska.github.io/WEBSTUDIO/"
+     target="_blank"
+     rel="noopener noreferrer"
+    >
+     <FaExternalLinkAlt size="1.5em" title="Project Page" />
+     Pages
+    </ProjectLink>
     <p>[HTML5, CSS3, JavaScript ]</p>
-    <a>GitHub</a>
+    <ProjectLink
+     href="https://github.com/OlesiaKubska/WEBSTUDIO"
+     target="_blank"
+     rel="noopener noreferrer"
+    >
+     <FaGithub size="1.5em" title="GitHub Repository" />
+     GitHub
+    </ProjectLink>
     <p>
      WEBSTUDIO was an educational project that enabled me to apply and
      consolidate my understanding of HTML5 and CSS3. Through this endeavor, I

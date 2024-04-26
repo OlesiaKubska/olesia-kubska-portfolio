@@ -8,14 +8,14 @@ const Footer = () => {
     <div>(+48) 795375541</div>
     <div>kublesia0908@gmail.com</div>
     <SocialLink
-     href="https://github.com/yourusername"
+     href="https://github.com/OlesiaKubska"
      target="_blank"
      rel="noopener noreferrer"
     >
      <FaGithub size="1.5em" />
     </SocialLink>
     <SocialLink
-     href="https://linkedin.com/in/yourusername"
+     href="https://linkedin.com/in/olesia-kubska"
      target="_blank"
      rel="noopener noreferrer"
     >
@@ -23,7 +23,6 @@ const Footer = () => {
     </SocialLink>
     <div>Bialystok, Poland</div>
    </ContactInfo>
-   {/* Тут може бути копірайт або інша інформація */}
   </FooterContainer>
  );
 };

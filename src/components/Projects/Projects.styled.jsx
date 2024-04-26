@@ -38,3 +38,26 @@ export const ProjectsContainer = styled.div`
   }
  }
 `;
+
+export const ProjectImage = styled.img`
+ width: 100%;
+ max-width: 600px;
+ border-radius: 4px;
+ margin-bottom: 20px;
+`;
+
+export const ProjectLink = styled.a`
+ display: flex;
+ align-items: center;
+ margin-bottom: 10px;
+ text-decoration: none;
+ color: #333;
+
+ &:hover {
+  color: #555;
+ }
+
+ svg {
+  margin-right: 8px;
+ }
+`;

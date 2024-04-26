@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
 import styled from "styled-components";
+import Logo from "../Logo/Logo";
 
 const HeaderContainer = styled.header`
  display: flex;
@@ -30,8 +31,9 @@ const StyledNavLink = styled(NavLink)`
 const Header = () => {
  return (
   <HeaderContainer>
-   <h2>Olesia Kubska</h2>
-   <h3>Junior Full Stack Developer</h3>
+   <Logo />
+   {/* <h2>Olesia Kubska</h2>
+   <h3>Junior Full Stack Developer</h3> */}
    <Navigation>
     <StyledNavLink to="/" end>
      Home
