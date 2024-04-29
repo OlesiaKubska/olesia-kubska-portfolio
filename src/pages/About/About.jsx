@@ -1,9 +1,4 @@
-import styled from "styled-components";
-import { motion } from "framer-motion";
-
-const AboutContainer = styled(motion.div)`
- padding: 2rem;
-`;
+import { AboutContainer } from "./About.styled";
 
 const About = () => {
  return (
