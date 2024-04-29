@@ -42,7 +42,7 @@ export const ProjectsContainer = styled.div`
 export const ProjectImage = styled.img`
  width: 100%;
  max-width: 600px;
- border-radius: 4px;
+ border-radius: 12px;
  margin-bottom: 20px;
 `;
 
