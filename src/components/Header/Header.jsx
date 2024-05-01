@@ -1,39 +1,12 @@
-import { NavLink } from "react-router-dom";
-import styled from "styled-components";
+import PropTypes from "prop-types";
+import ThemeToggle from "../ThemeProvider/ThemeToggle";
 import Logo from "../Logo/Logo";
+import { HeaderContainer, Navigation, StyledNavLink } from "./Header.styled";
 
-const HeaderContainer = styled.header`
- display: flex;
- justify-content: space-between;
- align-items: center;
- background-color: #fff;
- padding: 1rem;
- box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-`;
-
-const Navigation = styled.nav`
- display: flex;
- gap: 1rem;
-`;
-
-const StyledNavLink = styled(NavLink)`
- color: #333;
- text-decoration: none;
- padding: 0.5rem 1rem;
- &.active {
-  color: #007bff;
- }
- &:hover {
-  color: #0056b3;
- }
-`;
-
-const Header = () => {
+const Header = ({ theme, toggleTheme }) => {
  return (
   <HeaderContainer>
    <Logo />
-   {/* <h2>Olesia Kubska</h2>
-   <h3>Junior Full Stack Developer</h3> */}
    <Navigation>
     <StyledNavLink to="/" end>
      Home
@@ -42,8 +15,14 @@ const Header = () => {
     <StyledNavLink to="/projects">Projects</StyledNavLink>
     <StyledNavLink to="/contact">Contact</StyledNavLink>
    </Navigation>
+   <ThemeToggle theme={theme} toggleTheme={toggleTheme} />
   </HeaderContainer>
  );
+};
+
+Header.propTypes = {
+ theme: PropTypes.string.isRequired,
+ toggleTheme: PropTypes.func.isRequired,
 };
 
 export default Header;

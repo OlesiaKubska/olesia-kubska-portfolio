@@ -2,9 +2,9 @@ import styled from "styled-components";
 
 export const ProjectsContainer = styled.div`
  margin: 2rem auto;
- max-width: 800px;
+ /* max-width: 800px; */
  padding: 1rem;
- background: ${({ theme }) => theme.body};
+ background: ${({ theme }) => theme.background};
  color: ${({ theme }) => theme.text};
 
  h2 {
@@ -27,8 +27,7 @@ export const ProjectsContainer = styled.div`
   color: ${({ theme }) => theme.text};
  }
 
- //
- @media (max-width: 768px) {
+ @media (max-width: ${({ theme }) => theme.breakpoint.tablet}) {
   h2 {
    font-size: 2rem;
   }
@@ -42,6 +41,7 @@ export const ProjectsContainer = styled.div`
 export const ProjectImage = styled.img`
  width: 100%;
  max-width: 600px;
+ height: auto;
  border-radius: 12px;
  margin-bottom: 20px;
 `;
@@ -50,11 +50,10 @@ export const ProjectLink = styled.a`
  display: flex;
  align-items: center;
  margin-bottom: 10px;
- text-decoration: none;
- color: #333;
+ color: ${({ theme }) => theme.text};
 
  &:hover {
-  color: #555;
+  color: ${({ theme }) => theme.buttonHover};
  }
 
  svg {

@@ -34,6 +34,15 @@ export const HomeContainer = styled(motion.div)`
  max-width: 1200px;
  margin: 0 auto;
  padding: 20px;
+ background-color: ${({ theme }) => theme.homeBackground};
+
+ h1 {
+  text-align: center;
+ }
+
+ p {
+  text-align: center;
+ }
 `;
 
 export const ProfilePhoto = styled.img`
@@ -55,11 +64,11 @@ export const Button = styled.a`
  border: 1px solid ${({ theme }) => theme.borderColor};
  border-radius: 5px;
  transition: background-color 0.3s, transform 0.2s ease;
- text-decoration: none;
 
  &:hover {
   background-color: ${({ theme }) => theme.buttonHover};
   transform: scale(1.05);
+  color: ${({ theme }) => theme.body};
  }
 
  &:active {

@@ -18,8 +18,4 @@ export const ContactInfo = styled.div`
 
 export const SocialLink = styled.a`
  color: ${({ theme }) => theme.text};
- text-decoration: none;
- &:hover {
-  color: ${({ theme }) => theme.toggleBorder};
- }
 `;

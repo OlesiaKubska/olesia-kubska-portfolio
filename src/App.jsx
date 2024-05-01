@@ -2,7 +2,6 @@ import { lazy, Suspense, useState } from "react";
 import { Routes, Route } from "react-router-dom";
 import { ThemeProvider } from "styled-components";
 import { lightTheme, darkTheme } from "./styles/themes";
-import ThemeToggle from "./components/ThemeProvider/ThemeToggle";
 import { GlobalStyles } from "./styles/GlobalStyles";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
@@ -29,8 +28,7 @@ const App = () => {
   <ThemeProvider theme={theme === "light" ? lightTheme : darkTheme}>
    <Container>
     <GlobalStyles />
-    <ThemeToggle theme={theme} toggleTheme={toggleTheme} />
-    <Header />
+    <Header theme={theme} toggleTheme={toggleTheme} />
     <Suspense fallback={<div>Loading...</div>}>
      <Routes>
       <Route path="/" element={<Home />} />

@@ -57,7 +57,7 @@ export const GlobalStyles = createGlobalStyle`
     transition: color 0.3s ease-in-out;
 
     &:hover {
-      color: ${(props) => props.theme.linkHover};
+      color: ${(props) => props.theme.toggleBorder};
     }
 
     &:focus {

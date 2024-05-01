@@ -1,15 +1,5 @@
-import styled from "styled-components";
-import { Formik, Form, Field } from "formik";
-import { motion } from "framer-motion";
-
-const ContactContainer = styled(motion.div)`
- padding: 2rem;
-`;
-
-const ContactForm = styled(Form)`
- display: flex;
- flex-direction: column;
-`;
+import { Formik, Field } from "formik";
+import { ContactContainer, ContactForm } from "./Contact.styled";
 
 const Contact = () => {
  return (
