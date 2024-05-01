@@ -1,8 +1,8 @@
-import{u as a,j as e,F as i,a as o}from"./index-BXqrt5Dc.js";const s=a.div`
+import{u as a,j as e,F as i,a as o}from"./index-CLgU3u8D.js";const s=a.div`
  margin: 2rem auto;
- max-width: 800px;
+ /* max-width: 800px; */
  padding: 1rem;
- background: ${({theme:t})=>t.body};
+ background: ${({theme:t})=>t.background};
  color: ${({theme:t})=>t.text};
 
  h2 {
@@ -25,8 +25,7 @@ import{u as a,j as e,F as i,a as o}from"./index-BXqrt5Dc.js";const s=a.div`
   color: ${({theme:t})=>t.text};
  }
 
- //
- @media (max-width: 768px) {
+ @media (max-width: ${({theme:t})=>t.breakpoint.tablet}) {
   h2 {
    font-size: 2rem;
   }
@@ -38,17 +37,17 @@ import{u as a,j as e,F as i,a as o}from"./index-BXqrt5Dc.js";const s=a.div`
 `,n=a.img`
  width: 100%;
  max-width: 600px;
+ height: auto;
  border-radius: 12px;
  margin-bottom: 20px;
 `,r=a.a`
  display: flex;
  align-items: center;
  margin-bottom: 10px;
- text-decoration: none;
- color: #333;
+ color: ${({theme:t})=>t.text};
 
  &:hover {
-  color: #555;
+  color: ${({theme:t})=>t.buttonHover};
  }
 
  svg {
