@@ -29,12 +29,13 @@ export const HomeContainer = styled(motion.div)`
  flex-direction: column;
  justify-content: center;
  align-items: center;
- height: 100vh;
+ min-height: 100vh;
  width: 100%;
  max-width: 1200px;
  margin: 0 auto;
  padding: 20px;
  background-color: ${({ theme }) => theme.homeBackground};
+ overflow: hidden;
 
  h1 {
   text-align: center;
@@ -42,6 +43,10 @@ export const HomeContainer = styled(motion.div)`
 
  p {
   text-align: center;
+ }
+
+ @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
+  padding: 10px;
  }
 `;
 
@@ -52,12 +57,25 @@ export const ProfilePhoto = styled.img`
  border-radius: 50%;
  margin-bottom: 20px;
  object-fit: cover;
+
+ @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
+  max-width: 180px;
+  margin-bottom: 15px;
+  border-radius: 20%;
+ }
+`;
+
+export const ButtonBox = styled.div`
+ display: flex;
+ text-align: center;
+ flex-wrap: wrap;
+ justify-content: center;
 `;
 
 export const Button = styled.a`
  display: inline-block;
  background-color: ${({ theme }) => theme.buttonBackground};
- color: ${({ theme }) => theme.text};
+ color: ${({ theme }) => theme.buttonColor};
  text-align: center;
  padding: 10px 20px;
  margin: 5px;
@@ -68,7 +86,7 @@ export const Button = styled.a`
  &:hover {
   background-color: ${({ theme }) => theme.buttonHover};
   transform: scale(1.05);
-  color: ${({ theme }) => theme.body};
+  color: ${({ theme }) => theme.buttonColorHover};
  }
 
  &:active {
@@ -77,5 +95,6 @@ export const Button = styled.a`
 
  @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
   padding: 8px 16px;
+  font-size: 14px;
  }
 `;

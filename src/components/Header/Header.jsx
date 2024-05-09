@@ -1,19 +1,36 @@
+import { useState } from "react";
 import PropTypes from "prop-types";
 import ThemeToggle from "../ThemeProvider/ThemeToggle";
 import Logo from "../Logo/Logo";
-import { HeaderContainer, Navigation, StyledNavLink } from "./Header.styled";
+import {
+ HeaderContainer,
+ Navigation,
+ StyledNavLink,
+ BurgerMenuIcon,
+} from "./Header.styled";
 
 const Header = ({ theme, toggleTheme }) => {
+ const [isOpen, setIsOpen] = useState(false);
+
+ const toggleMenu = () => setIsOpen(!isOpen);
+
  return (
   <HeaderContainer>
    <Logo />
-   <Navigation>
-    <StyledNavLink to="/" end>
+   <BurgerMenuIcon onClick={toggleMenu}>☰</BurgerMenuIcon>
+   <Navigation $isOpen={isOpen}>
+    <StyledNavLink to="/" end onClick={toggleMenu}>
      Home
     </StyledNavLink>
-    <StyledNavLink to="/about">About</StyledNavLink>
-    <StyledNavLink to="/projects">Projects</StyledNavLink>
-    <StyledNavLink to="/contact">Contact</StyledNavLink>
+    <StyledNavLink to="/about" onClick={toggleMenu}>
+     About
+    </StyledNavLink>
+    <StyledNavLink to="/projects" onClick={toggleMenu}>
+     Projects
+    </StyledNavLink>
+    <StyledNavLink to="/contact" onClick={toggleMenu}>
+     Contact
+    </StyledNavLink>
    </Navigation>
    <ThemeToggle theme={theme} toggleTheme={toggleTheme} />
   </HeaderContainer>

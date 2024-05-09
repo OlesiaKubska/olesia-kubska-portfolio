@@ -7,8 +7,8 @@ export const ContactContainer = styled(motion.div)`
  flex-direction: column;
  align-items: center;
  justify-content: center;
- padding: 2rem;
- margin: auto;
+ padding: 1rem;
+ margin: 2rem auto;
  max-width: 600px;
  background-color: ${({ theme }) => theme.background};
  border-radius: 8px;
@@ -47,15 +47,20 @@ export const ContactForm = styled(Form)`
  button {
   padding: 10px 15px;
   background-color: ${({ theme }) => theme.buttonBackground};
-  color: white;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
+  color: ${({ theme }) => theme.buttonColor};
   font-size: 16px;
-  transition: background-color 0.3s;
+  border: 1px solid ${({ theme }) => theme.borderColor};
+  border-radius: 5px;
+  transition: background-color 0.3s, transform 0.2s ease;
 
   &:hover {
    background-color: ${({ theme }) => theme.buttonHover};
+   color: ${({ theme }) => theme.buttonColorHover};
+   transform: scale(1.05);
+  }
+
+  &:active {
+   transform: scale(0.95);
   }
  }
 `;

@@ -12,6 +12,10 @@ const Home = lazy(() => import("./pages/Home/Home"));
 const About = lazy(() => import("./pages/About/About"));
 const Contact = lazy(() => import("./pages/Contact/Contact"));
 const Projects = lazy(() => import("./pages/Projects/Projects"));
+const Education = lazy(() => import("./pages/Education/Education"));
+const WorkExperience = lazy(() =>
+ import("./pages/WorkExperience/WorkExperience")
+);
 
 const App = () => {
  const [theme, setTheme] = useState("light");
@@ -32,7 +36,10 @@ const App = () => {
     <Suspense fallback={<div>Loading...</div>}>
      <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/about" element={<About />} />
+      <Route path="/about" element={<About />}>
+       <Route path="work" element={<WorkExperience />} />
+       <Route path="education" element={<Education />} />
+      </Route>
       <Route path="/projects" element={<Projects />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="*" element={<NotFound />} />

@@ -5,7 +5,7 @@ import { LogoStyled } from "./Logo.styled";
 const Logo = () => {
  return (
   <div>
-   <NavLink to="/home">
+   <NavLink to="/">
     <LogoStyled src={logo} alt="logo" />
    </NavLink>
   </div>

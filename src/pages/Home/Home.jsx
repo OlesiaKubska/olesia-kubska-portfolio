@@ -3,6 +3,7 @@ import {
  HomeContainer,
  ProfilePhoto,
  Button,
+ ButtonBox,
 } from "./Home.styled";
 import homeImage from "../../assets/images/Home/olesia-kubska.png";
 
@@ -23,13 +24,13 @@ const Home = () => {
      </p>
     </div>
     <ProfilePhoto src={homeImage} alt="Olesia Kubska" />
-    <div>
+    <ButtonBox>
      <Button href="olesia-kubska-portfolio/projects">View My Work</Button>
      <Button href="olesia-kubska-portfolio/contact">Contact Me</Button>
      <Button href="path_to_your_resume.pdf" download="Olesia Kubska.pdf">
       Download Resume
      </Button>
-    </div>
+    </ButtonBox>
    </HomeContainer>
   </HomeBackground>
  );

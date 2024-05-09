@@ -11,8 +11,28 @@ export const HeaderContainer = styled.header`
 `;
 
 export const Navigation = styled.nav`
- display: flex;
+ display: ${({ $isOpen }) => ($isOpen ? "flex" : "none")};
  gap: 1rem;
+ flex-direction: column;
+ position: absolute;
+ top: 65px;
+ left: 0;
+ width: 100%;
+ background-color: ${({ theme }) => theme.body};
+ padding: 1rem;
+ box-shadow: ${({ theme }) => theme.boxShadow};
+
+ @media (min-width: ${({ theme }) => theme.breakpoint.tablet}) {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  width: auto;
+  background-color: transparent;
+  padding: 0;
+  box-shadow: none;
+  top: auto;
+  left: auto;
+ }
 `;
 
 export const StyledNavLink = styled(NavLink)`
@@ -27,5 +47,15 @@ export const StyledNavLink = styled(NavLink)`
 
  &:hover {
   color: ${({ theme }) => theme.toggleBorder};
+ }
+`;
+
+export const BurgerMenuIcon = styled.div`
+ display: none;
+
+ @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
+  display: block;
+  font-size: 1.5rem;
+  cursor: pointer;
  }
 `;

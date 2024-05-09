@@ -1,4 +1,5 @@
-import { AboutContainer } from "./About.styled";
+import { Outlet, Link } from "react-router-dom";
+import { AboutContainer, InfoContainer } from "./About.styled";
 
 const About = () => {
  return (
@@ -21,6 +22,11 @@ const About = () => {
     acquire new knowledge and enhance my expertise.
    </p>
    <p>Skills: HTML, CSS, JavaScript, React, Redux...</p>
+   <InfoContainer>
+    <Link to="work">WorkExperience</Link>
+    <Link to="education">Education</Link>
+   </InfoContainer>
+   <Outlet />
   </AboutContainer>
  );
 };
