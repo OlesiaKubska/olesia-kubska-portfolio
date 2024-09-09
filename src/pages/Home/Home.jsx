@@ -27,7 +27,7 @@ const Home = () => {
     <ButtonBox>
      <Button href="olesia-kubska-portfolio/projects">View My Work</Button>
      <Button href="olesia-kubska-portfolio/contact">Contact Me</Button>
-     <Button href="path_to_your_resume.pdf" download="Olesia Kubska.pdf">
+     <Button href="./docs/OlesiaKubskaCV.pdf" download="OlesiaKubskaCV.pdf">
       Download Resume
      </Button>
     </ButtonBox>
