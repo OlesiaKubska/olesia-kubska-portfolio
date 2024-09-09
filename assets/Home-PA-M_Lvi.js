@@ -1,4 +1,4 @@
-import{u as t,j as e}from"./index-BzJOi7-W.js";import{m as a}from"./motion-QB1zPgDX.js";const n="/olesia-kubska-portfolio/assets/background-desktop-fcBKqUtT.png",r="/olesia-kubska-portfolio/assets/background-mobile-CT6pKZ-M.png",s="/olesia-kubska-portfolio/assets/background-tablet-ChqLgS9L.png",d=t.div`
+import{u as t,j as e}from"./index-CvYwDoCN.js";import{m as a}from"./motion-Dr0MhY9h.js";const n="/olesia-kubska-portfolio/assets/background-desktop-fcBKqUtT.png",r="/olesia-kubska-portfolio/assets/background-mobile-CT6pKZ-M.png",s="/olesia-kubska-portfolio/assets/background-tablet-ChqLgS9L.png",d=t.div`
  display: flex;
  justify-content: center;
  align-items: center;

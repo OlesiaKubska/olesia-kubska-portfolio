@@ -1,4 +1,4 @@
-import{u as n,j as e,L as i,O as a}from"./index-BzJOi7-W.js";import{m as t}from"./motion-QB1zPgDX.js";const o=n(t.div)`
+import{u as n,j as e,L as i,O as a}from"./index-CvYwDoCN.js";import{m as t}from"./motion-Dr0MhY9h.js";const o=n(t.div)`
  padding: 2rem;
 `,r=n(t.div)`
  display: flex;
