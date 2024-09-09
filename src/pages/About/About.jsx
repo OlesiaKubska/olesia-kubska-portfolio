@@ -64,8 +64,8 @@ const About = () => {
      <li>Communication</li>
      <li>Creative</li>
      <li>Decision-making</li>
-     <li>Hardworking</li>
-     <li>Punctual</li>
+     <li>Ability to Learn</li>
+     <li>Time Management</li>
     </SkillsList>
    </SkillsSection>
 
