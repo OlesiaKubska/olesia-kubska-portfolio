@@ -13,9 +13,7 @@ const Education = () => {
    <University>
     <Item>
      Bialystok University of Technology | Poland
-     <Info>
-      “JavaScript Developer” | October 2023 - currently pursuing studies
-     </Info>
+     <Info>“JavaScript Developer” | October 2023 - July 2024</Info>
     </Item>
     <Item>
      IT School GolT | Ukraine
