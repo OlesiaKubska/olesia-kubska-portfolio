@@ -1,4 +1,4 @@
-import{u as n,j as e,L as t,O as s}from"./index-CFnv9yCI.js";import{m as r}from"./motion-BC71kQxC.js";const a=n(r.div)`
+import{u as n,j as e,L as t,O as s}from"./index-BA2GXuX8.js";import{m as r}from"./motion-Brvx1Wwz.js";const a=n(r.div)`
  padding: 2rem;
  /* max-width: 900px; */
  margin: 0 auto;

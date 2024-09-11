@@ -1,21 +1,21 @@
-import{u as t,j as e}from"./index-CFnv9yCI.js";import{m as a}from"./motion-BC71kQxC.js";const n="/olesia-kubska-portfolio/assets/background-desktop-fcBKqUtT.png",r="/olesia-kubska-portfolio/assets/background-mobile-CT6pKZ-M.png",s="/olesia-kubska-portfolio/assets/background-tablet-ChqLgS9L.png",d=t.div`
+import{u as t,a,j as e}from"./index-BA2GXuX8.js";import{m as n}from"./motion-Brvx1Wwz.js";const r="/olesia-kubska-portfolio/assets/background-desktop-fcBKqUtT.png",s="/olesia-kubska-portfolio/assets/background-mobile-CT6pKZ-M.png",d="/olesia-kubska-portfolio/assets/background-tablet-ChqLgS9L.png",c=t.div`
  display: flex;
  justify-content: center;
  align-items: center;
  width: 100%;
  min-height: 100vh;
  background-position: center;
- background-image: url(${r});
+ background-image: url(${s});
  background-size: cover;
  background-repeat: no-repeat;
 
  @media screen and (min-width: ${({theme:o})=>o.breakpoint.tablet}) {
-  background-image: url(${s});
+  background-image: url(${d});
  }
  @media screen and (min-width: ${({theme:o})=>o.breakpoint.desktop}) {
-  background-image: url(${n});
+  background-image: url(${r});
  }
-`,c=t(a.div)`
+`,l=t(n.div)`
  display: flex;
  flex-direction: column;
  justify-content: center;
@@ -39,7 +39,7 @@ import{u as t,j as e}from"./index-CFnv9yCI.js";import{m as a}from"./motion-BC71k
  @media (max-width: ${({theme:o})=>o.breakpoint.mobile}) {
   padding: 10px;
  }
-`,l=t.img`
+`,p=t.img`
  width: 100%;
  max-width: 280px;
  height: 280px;
@@ -52,7 +52,7 @@ import{u as t,j as e}from"./index-CFnv9yCI.js";import{m as a}from"./motion-BC71k
   margin-bottom: 15px;
   border-radius: 20%;
  }
-`,p=t.div`
+`,m=t.div`
  display: flex;
  text-align: center;
  flex-wrap: wrap;
@@ -82,4 +82,4 @@ import{u as t,j as e}from"./index-CFnv9yCI.js";import{m as a}from"./motion-BC71k
   padding: 8px 16px;
   font-size: 14px;
  }
-`,m="/olesia-kubska-portfolio/assets/olesia-kubska-Cdzx5Dr1.png",g=()=>e.jsx(d,{children:e.jsxs(c,{initial:{opacity:0},animate:{opacity:1},exit:{opacity:0},children:[e.jsxs("div",{children:[e.jsx("h1",{children:"Starting on a New Key: From Music to Coding"}),e.jsx("p",{children:"I am Olesia Kubska, a passionate Full Stack Developer dedicated to building and optimizing interactive, user-friendly, and feature-rich websites. Ready to enhance the digital footprint of your business?"})]}),e.jsx(l,{src:m,alt:"Olesia Kubska"}),e.jsxs(p,{children:[e.jsx(i,{href:"olesia-kubska-portfolio/projects",children:"View My Work"}),e.jsx(i,{href:"olesia-kubska-portfolio/contact",children:"Contact Me"}),e.jsx(i,{href:"./docs/OlesiaKubskaCV.pdf",download:"OlesiaKubskaCV.pdf",children:"Download Resume"})]})]})});export{g as default};
+`,u="/olesia-kubska-portfolio/assets/olesia-kubska-Cdzx5Dr1.png",g=()=>{const{t:o}=a();return e.jsx(c,{children:e.jsxs(l,{initial:{opacity:0},animate:{opacity:1},exit:{opacity:0},children:[e.jsxs("div",{children:[e.jsx("h1",{children:o("homeTitle")}),e.jsx("p",{children:o("homeDescription")})]}),e.jsx(p,{src:u,alt:"Olesia Kubska"}),e.jsxs(m,{children:[e.jsx(i,{href:"olesia-kubska-portfolio/projects",children:o("viewWork")}),e.jsx(i,{href:"olesia-kubska-portfolio/contact",children:o("contactMe")}),e.jsx(i,{href:"./docs/OlesiaKubskaCV.pdf",download:"OlesiaKubskaCV.pdf",children:o("downloadResume")})]})]})})};export{g as default};
