@@ -7,6 +7,8 @@ import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import NotFound from "./components/NotFound/NotFound";
 import { Container } from "./App.styled";
+import { useTranslation } from "react-i18next";
+import "./i18n";
 
 const Home = lazy(() => import("./pages/Home/Home"));
 const About = lazy(() => import("./pages/About/About"));
@@ -19,6 +21,7 @@ const WorkExperience = lazy(() =>
 
 const App = () => {
  const [theme, setTheme] = useState("light");
+ const { t } = useTranslation();
 
  const toggleTheme = () => {
   if (theme === "light") {
@@ -33,7 +36,8 @@ const App = () => {
    <Container>
     <GlobalStyles />
     <Header theme={theme} toggleTheme={toggleTheme} />
-    <Suspense fallback={<div>Loading...</div>}>
+
+    <Suspense fallback={<div>{t("loading")}</div>}>
      <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/about" element={<About />}>

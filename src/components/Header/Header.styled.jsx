@@ -8,6 +8,10 @@ export const HeaderContainer = styled.header`
  background-color: ${({ theme }) => theme.body};
  padding: 1rem;
  box-shadow: ${({ theme }) => theme.boxShadow};
+
+ @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
+  padding: 0.5rem;
+ }
 `;
 
 export const Navigation = styled.nav`
@@ -48,14 +52,55 @@ export const StyledNavLink = styled(NavLink)`
  &:hover {
   color: ${({ theme }) => theme.toggleBorder};
  }
+
+ @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
+  padding: 0.5rem;
+  font-size: 0.9rem;
+ }
 `;
 
 export const BurgerMenuIcon = styled.div`
  display: none;
 
- @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
+ @media (max-width: ${({ theme }) => theme.breakpoint.tablet}) {
   display: block;
-  font-size: 1.5rem;
+  font-size: 2rem;
   cursor: pointer;
+ }
+`;
+
+export const LanguageSwitcher = styled.div`
+ display: flex;
+ gap: 20px;
+
+ button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: ${({ theme }) => theme.text};
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+
+  &:hover {
+   text-decoration: underline;
+  }
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
+   font-size: 0.9rem;
+  }
+ }
+`;
+
+export const FlagIcon = styled.div`
+ width: 20px;
+ height: 20px;
+ display: inline-block;
+
+ svg {
+  width: 100%;
+  height: 100%;
  }
 `;

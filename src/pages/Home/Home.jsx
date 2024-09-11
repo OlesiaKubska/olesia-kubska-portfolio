@@ -6,8 +6,11 @@ import {
  ButtonBox,
 } from "./Home.styled";
 import homeImage from "../../assets/images/Home/olesia-kubska.png";
+import { useTranslation } from "react-i18next";
 
 const Home = () => {
+ const { t } = useTranslation();
+
  return (
   <HomeBackground>
    <HomeContainer
@@ -16,19 +19,15 @@ const Home = () => {
     exit={{ opacity: 0 }}
    >
     <div>
-     <h1>Starting on a New Key: From Music to Coding</h1>
-     <p>
-      I am Olesia Kubska, a passionate Full Stack Developer dedicated to
-      building and optimizing interactive, user-friendly, and feature-rich
-      websites. Ready to enhance the digital footprint of your business?
-     </p>
+     <h1>{t("homeTitle")}</h1>
+     <p>{t("homeDescription")}</p>
     </div>
     <ProfilePhoto src={homeImage} alt="Olesia Kubska" />
     <ButtonBox>
-     <Button href="olesia-kubska-portfolio/projects">View My Work</Button>
-     <Button href="olesia-kubska-portfolio/contact">Contact Me</Button>
+     <Button href="olesia-kubska-portfolio/projects">{t("viewWork")}</Button>
+     <Button href="olesia-kubska-portfolio/contact">{t("contactMe")}</Button>
      <Button href="./docs/OlesiaKubskaCV.pdf" download="OlesiaKubskaCV.pdf">
-      Download Resume
+      {t("downloadResume")}
      </Button>
     </ButtonBox>
    </HomeContainer>

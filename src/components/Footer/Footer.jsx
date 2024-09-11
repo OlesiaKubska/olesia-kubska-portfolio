@@ -1,10 +1,14 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { useTranslation } from "react-i18next";
 import { FooterContainer, ContactInfo, SocialLink } from "./Footer.styled";
 
 const Footer = () => {
+ const { t } = useTranslation();
+
  return (
   <FooterContainer>
    <ContactInfo>
+    <p>{t("contact")}</p>
     <div>(+48) 795375541</div>
     <div>kublesia0908@gmail.com</div>
     <SocialLink

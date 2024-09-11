@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <!-- Англійський прапор -->
+  <symbol id="icon-flag-en" viewBox="0 0 640 480">
+    <rect width="640" height="480" class="background"/>
+    <path class="blue" d="M0 0h640v480H0z"/>
+    <path class="white" stroke-width="40" d="M320 0v480M0 240h640"/>
+    <path class="red" stroke-width="30" d="M320 0v480M0 240h640"/>
+  </symbol>
+
+  <!-- Польський прапор -->
+  <symbol id="icon-flag-pl" viewBox="0 0 640 480">
+    <rect width="640" height="240" class="white"/>
+    <rect y="240" width="640" height="240" class="red"/>
+  </symbol>
+
+  <!-- Український прапор -->
+  <symbol id="icon-flag-ua" viewBox="0 0 640 480">
+    <rect width="640" height="240" class="blue"/>
+    <rect y="240" width="640" height="240" class="yellow"/>
+  </symbol>
+</svg>
