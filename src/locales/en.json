@@ -12,5 +12,48 @@
  "homeDescription": "I am Olesia Kubska, a passionate Full Stack Developer dedicated to building and optimizing interactive, user-friendly, and feature-rich websites.",
  "viewWork": "View My Work",
  "contactMe": "Contact Me",
- "downloadResume": "Download Resume"
+ "downloadResume": "Download Resume",
+ "aboutMeTitle": "About Me",
+ "aboutDescription": "I am a dedicated Junior Full Stack Developer with two years of focused experience in backend technologies and modern frameworks such as Node, React, Angular, and SQL. Having transitioned from a background in music and arts, I bring a unique blend of creativity and technical skills to my work in developing robust backend solutions and dynamic front-end interfaces. I am currently enrolled in English courses to improve my speaking skills, aiming to achieve a solid C1 level. While I currently have a basic A2 level of English, I am continuously working to improve my communication skills. I am actively seeking a full-time position where I can leverage my backend development skills and continue to grow within modern web technologies. Known for my relentless curiosity and commitment to continual learning, I am eager to deepen my expertise and contribute to innovative projects.",
+ "techSkills": "Tech Skills",
+ "softSkills": "Soft Skills",
+ "languages": "Languages",
+ "workExperience": "Work Experience",
+ "education": "Education",
+ "softSkillItems": {
+  "organized": "Organized",
+  "teamwork": "Teamwork",
+  "communication": "Communication",
+  "creative": "Creative",
+  "decisionMaking": "Decision-making",
+  "abilityToLearn": "Ability to Learn",
+  "timeManagement": "Time Management"
+ },
+ "techSkillItems": [
+  "JavaScript",
+  "Node.js",
+  "MongoDB",
+  "SQL",
+  "HTTP",
+  "Postman",
+  "Swagger",
+  "React.js",
+  "Vite",
+  "Angular",
+  "GIT",
+  "Parcel",
+  "WebPack",
+  "CSS Grid",
+  "SCSS",
+  "CSS3",
+  "HTML5",
+  "Scrum",
+  "Agile"
+ ],
+ "languagesList": {
+  "ukrainian": "Ukrainian - Native",
+  "russian": "Russian - Fluent",
+  "english": "English - Pre-Intermediate",
+  "polish": "Polish - Upper-Intermediate (Certificate B2)"
+ }
 }

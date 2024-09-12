@@ -12,5 +12,48 @@
  "homeDescription": "Jestem Olesia Kubska, pasjonatką Full Stack Development, dedykowaną tworzeniu i optymalizacji interaktywnych, przyjaznych dla użytkownika i funkcjonalnych stron internetowych.",
  "viewWork": "Zobacz moje prace",
  "contactMe": "Skontaktuj się ze mną",
- "downloadResume": "Pobierz CV"
+ "downloadResume": "Pobierz CV",
+ "aboutMeTitle": "O mnie",
+ "aboutDescription": "Jestem oddanym Junior Full Stack Developerem z dwuletnim doświadczeniem w technologiach backendowych oraz nowoczesnych frameworkach, takich jak Node, React, Angular i SQL. Przeszedłszy z dziedziny muzyki i sztuki, łączę kreatywność i umiejętności techniczne w pracy nad solidnymi rozwiązaniami backendowymi i dynamicznymi interfejsami front-endowymi. Obecnie uczęszczam na kursy języka angielskiego, aby poprawić swoje umiejętności mówienia, dążąc do poziomu С1. Posiadam podstawowy poziom A2, ale nieustannie pracuję nad poprawą komunikacji. Poszukuję pełnoetatowego stanowiska, które pozwoli mi wykorzystać moje umiejętności w rozwoju backendu i kontynuować rozwój w zakresie nowoczesnych technologii internetowych. Znana jestem z nieustannej ciekawości i chęci do ciągłej nauki, a także z gotowości do angażowania się w innowacyjne projekty.",
+ "techSkills": "Umiejętności techniczne",
+ "softSkills": "Umiejętności miękkie",
+ "languages": "Języki",
+ "workExperience": "Doświadczenie zawodowe",
+ "education": "Edukacja",
+ "softSkillItems": {
+  "organized": "Zorganizowana",
+  "teamwork": "Praca zespołowa",
+  "communication": "Komunikacja",
+  "creative": "Kreatywność",
+  "decisionMaking": "Podejmowanie decyzji",
+  "abilityToLearn": "Zdolność do nauki",
+  "timeManagement": "Zarządzanie czasem"
+ },
+ "techSkillItems": [
+  "JavaScript",
+  "Node.js",
+  "MongoDB",
+  "SQL",
+  "HTTP",
+  "Postman",
+  "Swagger",
+  "React.js",
+  "Vite",
+  "Angular",
+  "GIT",
+  "Parcel",
+  "WebPack",
+  "CSS Grid",
+  "SCSS",
+  "CSS3",
+  "HTML5",
+  "Scrum",
+  "Agile"
+ ],
+ "languagesList": {
+  "ukrainian": "Ukraiński - Język ojczysty",
+  "russian": "Rosyjski - Biegły",
+  "english": "Angielski - Średnio zaawansowany (Pre-Intermediate)",
+  "polish": "Polski - Zaawansowany (Certyfikat B2)"
+ }
 }
