@@ -55,5 +55,14 @@
   "russian": "Rosyjski - Biegły",
   "english": "Angielski - Średnio zaawansowany (Pre-Intermediate)",
   "polish": "Polski - Zaawansowany (Certyfikat B2)"
- }
+ },
+ "educationTitle": "Edukacja",
+ "bialystokUniversity": "Politechnika Białostocka | Polska",
+ "jsDeveloperCourse": "„JavaScript Developer” | Październik 2023 - Lipiec 2024",
+ "golTSchool": "Szkoła IT GolT | Ukraina",
+ "fullStackCourse": "„Full Stack Developer” | 2023 – 2024 | CERTYFIKAT",
+ "dragomanovUniversityManagement": "Narodowy Uniwersytet Pedagogiczny im. Dragomanowa | Ukraina",
+ "managementCourse": "„Zarządzanie placówką edukacyjną” | 2014 – 2016 | MAGISTER | Menedżer biura, biznesu i organizacji",
+ "dragomanovUniversityMusic": "Narodowy Uniwersytet Pedagogiczny im. Dragomanowa | Ukraina",
+ "musicCourse": "„Sztuka muzyczna” | 2010 - 2015 | MAGISTER | Nauczyciel metodyk edukacji muzycznej, nauczyciel muzyki i dyrygent chóru"
 }

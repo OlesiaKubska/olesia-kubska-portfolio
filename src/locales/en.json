@@ -55,5 +55,14 @@
   "russian": "Russian - Fluent",
   "english": "English - Pre-Intermediate",
   "polish": "Polish - Upper-Intermediate (Certificate B2)"
- }
+ },
+ "educationTitle": "Education",
+ "bialystokUniversity": "Bialystok University of Technology | Poland",
+ "jsDeveloperCourse": "“JavaScript Developer” | October 2023 - July 2024",
+ "golTSchool": "IT School GolT | Ukraine",
+ "fullStackCourse": "“Full Stack Developer” | 2023 – 2024 | CERTIFICATE",
+ "dragomanovUniversityManagement": "National Pedagogical Dragomanov University | Ukraine",
+ "managementCourse": "“Education institution management” | 2014 – 2016 | MASTER | Business, office and organization manager",
+ "dragomanovUniversityMusic": "National Pedagogical Dragomanov University | Ukraine",
+ "musicCourse": "“Musical art” | 2010 - 2015 | MASTER | Methods of musical education teacher (lecturer), music teacher and choir master"
 }
