@@ -1,4 +1,4 @@
-import{u as a,j as e,F as i,b as o}from"./index-BuX6SEg0.js";const s=a.div`
+import{u as a,j as e,F as i,b as o}from"./index-rYr6l8SY.js";const s=a.div`
  margin: 2rem auto;
  /* max-width: 800px; */
  padding: 1rem;
