@@ -64,4 +64,20 @@ export const GlobalStyles = createGlobalStyle`
       outline: 2px solid ${(props) => props.theme.toggleBorder};
     }
   }
+
+.error {
+  color: red;
+  font-size: 0.85rem;
+  margin-top: -0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.spin {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
 `;

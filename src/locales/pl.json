@@ -65,8 +65,21 @@
  "managementCourse": "„Zarządzanie placówką edukacyjną” | 2014 – 2016 | MAGISTER | Menedżer biura, biznesu i organizacji",
  "dragomanovUniversityMusic": "Narodowy Uniwersytet Pedagogiczny im. Dragomanowa | Ukraina",
  "musicCourse": "„Sztuka muzyczna” | 2010 - 2015 | MAGISTER | Nauczyciel metodyk edukacji muzycznej, nauczyciel muzyki i dyrygent chóru",
-"connect": "Połączmy się!",
-"yourEmail": "Twój email",
- "yourMessage": "Twoja wiadomość",
- "send": "Wyślij"
+ "connect": "Połączmy się!",
+ "yourName": "Imię",
+ "yourEmail": "Email",
+ "yourMessage": "Wiadomość",
+ "send": "Wyślij",
+ "validation": {
+    "nameRequired": "Imię jest wymagane",
+    "emailInvalid": "Nieprawidłowy format email",
+    "emailRequired": "Email jest wymagany",
+    "messageMin": "Wiadomość musi mieć co najmniej 10 znaków",
+    "messageRequired": "Wiadomość jest wymagana"
+  },
+  "form": {
+    "success": "Wiadomość została wysłana pomyślnie!",
+    "error": "Błąd podczas wysyłania wiadomości: ",
+    "sending": "Wysyłanie..."
+  }
 }

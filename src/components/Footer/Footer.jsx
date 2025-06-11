@@ -37,7 +37,6 @@ const Footer = () => {
         >
           <FaLinkedin size="1.5em" />
         </SocialLink>
-        <div>Bialystok, Poland</div>
       </ContactInfo>
       <Copyright>&copy; {new Date().getFullYear()} Olesia Kubska.</Copyright>
     </FooterContainer>
