@@ -29,31 +29,10 @@
   "abilityToLearn": "Здатність до навчання",
   "timeManagement": "Тайм-менеджмент"
  },
- "techSkillItems": [
-  "JavaScript",
-  "Node.js",
-  "MongoDB",
-  "SQL",
-  "HTTP",
-  "Postman",
-  "Swagger",
-  "React.js",
-  "Vite",
-  "Angular",
-  "GIT",
-  "Parcel",
-  "WebPack",
-  "CSS Grid",
-  "SCSS",
-  "CSS3",
-  "HTML5",
-  "Scrum",
-  "Agile"
- ],
  "languagesList": {
   "ukrainian": "Українська - Рідна мова",
-  "russian": "Російська - Вільно",
-  "english": "Англійська - Середній рівень (Pre-Intermediate)",
+  "russian": "Російська - Вільне володіння",
+  "english": "Англійська - Середній рівень (Intermediate)",
   "polish": "Польська - Високий рівень (Сертифікат B2)"
  },
  "educationTitle": "Освіта",

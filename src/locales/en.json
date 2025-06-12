@@ -29,32 +29,11 @@
   "abilityToLearn": "Ability to Learn",
   "timeManagement": "Time Management"
  },
- "techSkillItems": [
-  "JavaScript",
-  "Node.js",
-  "MongoDB",
-  "SQL",
-  "HTTP",
-  "Postman",
-  "Swagger",
-  "React.js",
-  "Vite",
-  "Angular",
-  "GIT",
-  "Parcel",
-  "WebPack",
-  "CSS Grid",
-  "SCSS",
-  "CSS3",
-  "HTML5",
-  "Scrum",
-  "Agile"
- ],
  "languagesList": {
   "ukrainian": "Ukrainian - Native",
   "russian": "Russian - Fluent",
-  "english": "English - Pre-Intermediate",
-  "polish": "Polish - Upper-Intermediate (Certificate B2)"
+  "english": "English - Intermediate",
+  "polish": "Polish - Advanced (B2 Certificate)"
  },
  "educationTitle": "Education",
  "bialystokUniversity": "Bialystok University of Technology | Poland",
