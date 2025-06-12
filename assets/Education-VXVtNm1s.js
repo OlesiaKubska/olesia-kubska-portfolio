@@ -1,4 +1,4 @@
-import{u as n,a as i,j as e}from"./index-KHlOyZ_e.js";const r=n.div`
+import{u as n,a as i,j as e}from"./index-3lhJjtir.js";const r=n.div`
  padding: 20px;
  background-color: ${({theme:o})=>o.body};
  border-radius: 8px;
