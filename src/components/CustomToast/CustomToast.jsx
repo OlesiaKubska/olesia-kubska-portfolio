@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 import { ToastWrapper } from "./CustomToast.styled";
 
 const CustomToast = ({ message, success }) => {
-  return <ToastWrapper success={success}>{message}</ToastWrapper>;
+  return <ToastWrapper $success={success}>{message}</ToastWrapper>;
 };
 
 CustomToast.propTypes = {
