@@ -38,7 +38,7 @@ const Footer = () => {
           </NavLink>
           <NavLink to="/projects">
             <FaProjectDiagram style={{ marginRight: "6px" }} />
-            {t("projects")}
+            {t("projectsPage")}
           </NavLink>
           <NavLink to="/contact">
             <FaEnvelopeOpenText style={{ marginRight: "6px" }} />

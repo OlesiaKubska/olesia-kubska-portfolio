@@ -2,7 +2,7 @@
  "welcome": "Witamy w moim portfolio",
  "aboutMe": "O mnie",
  "contact": "Kontakt",
- "projects": "Projekty",
+ "projectsPage": "Projekty",
  "loading": "Ładowanie...",
  "home": "Strona główna",
  "about": "O mnie",
@@ -60,5 +60,22 @@
     "success": "Wiadomość została wysłana pomyślnie!",
     "error": "Błąd podczas wysyłania wiadomości: ",
     "sending": "Wysyłanie..."
+  },
+  "projects": {
+    "water": {
+      "title": "ŚLEDZENIE WODY",
+      "stack": "[HTML5, CSS3, JavaScript, React, Redux Toolkit, React Router, Axios, Vite, Node]",
+      "description": "Ten opis podkreśla Twoją rolę, kluczowy wkład oraz technologie, z których korzystałeś, oferując jasny i zwięzły przegląd Twojego udziału w projekcie. Projekt ten pokazuje moją umiejętność tworzenia aplikacji zorientowanej na użytkownika z wykorzystaniem nowoczesnych technologii internetowych i integracji API w celu zapewnienia płynnego doświadczenia użytkownika. Aplikacja korzysta z backendu opracowanego przez nasz zespół. Zapraszam do zapoznania się z nim tutaj."
+    },
+    "cinemania": {
+      "title": "CINEMANIA",
+      "stack": "[JavaScript, HTML5, SCSS, Parcel]",
+      "description": "W projekcie odegrałam kluczową rolę w tworzeniu i ulepszaniu sekcji wyszukiwania w katalogu. Byłam odpowiedzialna za wdrażanie najważniejszych funkcjonalności przy użyciu JavaScript i HTML5. Ponadto podjęłam inicjatywę optymalizacji i udoskonalenia interfejsu użytkownika poprzez poprawki w kodzie SCSS i JavaScript. Doświadczenie to nie tylko poprawiło moje umiejętności techniczne, ale także rozwinęło zdolności do rozwiązywania złożonych problemów."
+    },
+    "mimino": {
+      "title": "MIMINO HOTEL",
+      "stack": "[HTML5, CSS3, JavaScript, Parcel]",
+      "description": "W tym projekcie skoncentrowałam się głównie na zaprojektowaniu i opracowaniu sekcji menu restauracyjnego. Wykorzystałam HTML5 i CSS3 do stworzenia atrakcyjnego i przyjaznego dla użytkownika interfejsu. Dzięki JavaScript wdrożyłam funkcje interaktywne, aby poprawić ogólne wrażenia użytkownika. Projekt ten pozwolił mi rozwijać umiejętności w zakresie frontendu oraz zrozumieć zasady skutecznego projektowania UI/UX."
+    }
   }
 }

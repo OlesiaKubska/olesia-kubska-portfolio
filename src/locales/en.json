@@ -2,7 +2,7 @@
  "welcome": "Welcome to my portfolio",
  "aboutMe": "About Me",
  "contact": "Contact",
- "projects": "Projects",
+ "projectsPage": "Projects",
  "loading": "Loading...",
  "home": "Home",
  "about": "About",
@@ -60,5 +60,22 @@
     "success": "Message sent successfully!",
     "error": "Error sending message: ",
     "sending": "Sending..."
+  },
+  "projects": {
+    "water": {
+      "title": "WATER TRACKER",
+      "stack": "[HTML5, CSS3, JavaScript, React, Redux Toolkit, React Router, Axios, Vite, Node]",
+      "description": "This description highlights your role, key contributions, and the technologies you worked with, offering a clear and concise overview of your involvement in the project. This project showcases my ability to develop a user-centric application utilizing modern web technologies and API integration for a seamless user experience. The application utilizes a backend developed by our team. Feel free to familiarize yourself with it here."
+    },
+    "cinemania": {
+      "title": "CINEMANIA",
+      "stack": "[JavaScript, HTML5, SCSS, Parcel]",
+      "description": "In the project, I played a crucial role in developing and enhancing the catalog-search section. I was responsible for implementing key functionalities using JavaScript and HTML5. Additionally, I took the initiative to optimize and refine the user interface by making corrections to the SCSS and JavaScript codebase. This experience not only improved my technical skills but also honed my problem-solving abilities when dealing with intricate challenges."
+    },
+    "mimino": {
+      "title": "MIMINO HOTEL",
+      "stack": "[HTML5, CSS3, JavaScript, Parcel]",
+      "description": "Within the project, my primary focus was on designing and developing the restaurant menu section. I leveraged HTML5 and CSS3 to create an appealing and user-friendly interface. Incorporating JavaScript, I implemented interactive features to enhance the overall user experience. This project not only allowed me to enhance my front-end development skills but also provided insights into effective UI/UX design principles."
+    }
   }
 }
