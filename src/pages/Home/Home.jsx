@@ -3,7 +3,9 @@ import {
   HomeContainer,
   ProfilePhoto,
   Button,
+  ButtonSecondary,
   ButtonBox,
+  SkillGridContainer,
 } from "./Home.styled";
 import homeImage from "../../assets/images/Home/olesia-kubska.png";
 import { useTranslation } from "react-i18next";
@@ -30,9 +32,9 @@ const Home = () => {
             <Button href="olesia-kubska-portfolio/projects">
               {t("viewWork")}
             </Button>
-            <Button href="olesia-kubska-portfolio/contact">
+            <ButtonSecondary href="olesia-kubska-portfolio/contact">
               {t("contactMe")}
-            </Button>
+            </ButtonSecondary>
             <Button
               href="./docs/OlesiaKubskaCV.pdf"
               download="OlesiaKubskaCV.pdf"
@@ -42,17 +44,14 @@ const Home = () => {
           </ButtonBox>
         </HomeContainer>
       </HomeBackground>
-      <div
-        style={{
-          margin: "0 auto",
-          padding: "2rem",
-          textAlign: "center",
-          backgroundColor: "white",
-        }}
+      <SkillGridContainer
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
       >
         <h3>{t("techSkills")}</h3>
         <SkillGrid />
-      </div>
+      </SkillGridContainer>
       <div>
         <Contact />
       </div>

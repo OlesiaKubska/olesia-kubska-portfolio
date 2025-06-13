@@ -47,7 +47,7 @@ export const StyledNavLink = styled(NavLink)`
   font-size: 0.9rem;
 
   &.active {
-    color: ${({ theme }) => theme.linkHover};
+    color: ${({ theme }) => theme.accent};
     font-weight: bold;
   }
 

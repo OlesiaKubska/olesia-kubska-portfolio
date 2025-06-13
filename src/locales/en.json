@@ -76,6 +76,17 @@
       "title": "MIMINO HOTEL",
       "stack": "[HTML5, CSS3, JavaScript, Parcel]",
       "description": "Within the project, my primary focus was on designing and developing the restaurant menu section. I leveraged HTML5 and CSS3 to create an appealing and user-friendly interface. Incorporating JavaScript, I implemented interactive features to enhance the overall user experience. This project not only allowed me to enhance my front-end development skills but also provided insights into effective UI/UX design principles."
-    }
+    },
+    "webstudio": {
+      "title": "WEBSTUDIO",
+      "stack": "[HTML5, CSS3, JavaScript]",
+      "description": "WEBSTUDIO was an educational project that enabled me to apply and consolidate my understanding of HTML5 and CSS3. Through this endeavor, I gained hands-on experience in building responsive and visually appealing web pages. This project served as a foundation for strengthening my web development capabilities and understanding the fundamentals of creating engaging online content."
+    },
+    "teamTitle": "Team Projects",
+    "personalTitle": "My Projects"
+  },
+  "buttons": {
+    "team": "Team",
+    "personal": "Personal"
   }
 }

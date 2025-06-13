@@ -1,8 +1,9 @@
 import waterTracker from "../assets/images/projects/water-tracker.jpg";
 import cinemania from "../assets/images/projects/project-cinemania.png";
 import mimino from "../assets/images/projects/project-hotel.png";
+import projectWebImage from "../assets/images/projects/project-web.png";
 
-export const projectsData = [
+export const teamProjects = [
   {
     id: "water",
     title: "projects.water.title",
@@ -29,5 +30,17 @@ export const projectsData = [
     live: "https://vasylkivt.github.io/team-proj-html-css-web-anonymous/restaurant.html",
     repo: "https://github.com/vasylkivt/team-proj-html-css-web-anonymous",
     description: "projects.mimino.description",
+  },
+];
+
+export const personalProjects = [
+  {
+    id: "webstudio",
+    title: "projects.webstudio.title",
+    image: projectWebImage,
+    stack: "projects.webstudio.stack",
+    live: "https://olesiakubska.github.io/WEBSTUDIO/",
+    repo: "https://github.com/OlesiaKubska/WEBSTUDIO",
+    description: "projects.webstudio.description",
   },
 ];

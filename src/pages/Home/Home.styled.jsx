@@ -74,19 +74,22 @@ export const ButtonBox = styled.div`
 
 export const Button = styled.a`
   display: inline-block;
-  background-color: ${({ theme }) => theme.buttonBackground};
+  background-color: ${({ theme }) => theme.accent};
   color: ${({ theme }) => theme.buttonColor};
   text-align: center;
-  padding: 10px 20px;
+  padding: 0.8rem 1.6rem;
   margin: 5px;
+  font-weight: 600;
   border: 1px solid ${({ theme }) => theme.borderColor};
-  border-radius: 5px;
+  border-radius: 8px;
+  box-shadow: ${({ theme }) => theme.boxShadow};
   transition: background-color 0.3s, transform 0.2s ease;
 
   &:hover {
-    background-color: ${({ theme }) => theme.buttonHover};
+    background-color: transparent;
     transform: scale(1.05);
-    color: ${({ theme }) => theme.buttonColorHover};
+    color: ${({ theme }) => theme.accent};
+    border: 2px solid ${({ theme }) => theme.accent};
   }
 
   &:active {
@@ -97,4 +100,41 @@ export const Button = styled.a`
     padding: 8px 16px;
     font-size: 14px;
   }
+`;
+
+export const ButtonSecondary = styled.a`
+  display: inline-block;
+  background-color: transparent;
+  color: ${({ theme }) => theme.accent};
+  text-align: center;
+  padding: 0.8rem 1.6rem;
+  margin: 5px;
+  font-weight: 600;
+  border: 2px solid ${({ theme }) => theme.accent};
+  border-radius: 8px;
+  box-shadow: ${({ theme }) => theme.boxShadow};
+  transition: background-color 0.3s, transform 0.2s ease;
+
+  &:hover {
+    background-color: ${({ theme }) => theme.accent};
+    transform: scale(1.05);
+    color: ${({ theme }) => theme.body};
+  }
+
+  &:active {
+    transform: scale(0.95);
+  }
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+`;
+
+export const SkillGridContainer = styled(motion.div)`
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: ${({ theme }) => theme.body};
+  color: ${({ theme }) => theme.text};
 `;
