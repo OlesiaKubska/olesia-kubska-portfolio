@@ -3,13 +3,13 @@ import { motion } from "framer-motion";
 
 export const AboutContainer = styled(motion.div)`
   padding: 2rem;
-  /* max-width: 900px; */
   margin: 0 auto;
   text-align: center;
 
   h2 {
     font-size: 2.5rem;
     margin-bottom: 1.5rem;
+    color: ${({ theme }) => theme.textSecondary};
   }
 
   p {
@@ -28,28 +28,6 @@ export const SkillsSection = styled(motion.section)`
     font-size: 1.8rem;
     margin-bottom: 1rem;
     text-align: center;
-  }
-`;
-
-export const InfoContainer = styled(motion.div)`
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-
-  a {
-    text-decoration: none;
-    padding: 0.8rem 1.5rem;
-    background-color: ${({ theme }) => theme.buttonBackground};
-    color: ${({ theme }) => theme.buttonColor};
-    border-radius: 5px;
-    box-shadow: ${({ theme }) => theme.boxShadow};
-    transition: background 0.3s, color 0.3s;
-
-    &:hover {
-      background-color: ${({ theme }) => theme.buttonHover};
-      color: ${({ theme }) => theme.buttonColorHover};
-    }
+    color: ${({ theme }) => theme.textSecondary};
   }
 `;

@@ -1,5 +1,4 @@
-import { Outlet, Link } from "react-router-dom";
-import { AboutContainer, InfoContainer, SkillsSection } from "./About.styled";
+import { AboutContainer, SkillsSection } from "./About.styled";
 import { useTranslation } from "react-i18next";
 import {
   SkillGrid,
@@ -17,11 +16,6 @@ const About = () => {
       exit={{ x: 200, opacity: 0 }}
       transition={{ type: "spring", stiffness: 100 }}
     >
-      <InfoContainer>
-        <Link to="work">{t("workExperience")}</Link>
-        <Link to="education">{t("education")}</Link>
-      </InfoContainer>
-      <Outlet />
       <h2>{t("aboutMeTitle")}</h2>
       <p>{t("aboutDescription")}</p>
       <SkillsSection

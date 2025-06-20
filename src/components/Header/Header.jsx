@@ -36,6 +36,9 @@ const Header = ({ theme, toggleTheme }) => {
         <StyledNavLink to="/projects" onClick={toggleMenu}>
           {t("projectsPage")}
         </StyledNavLink>
+        <StyledNavLink to="/achievements" onClick={toggleMenu}>
+          {t("achievements")}
+        </StyledNavLink>
         <StyledNavLink to="/contact" onClick={toggleMenu}>
           {t("contact")}
         </StyledNavLink>

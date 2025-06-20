@@ -1,19 +1,19 @@
 export const lightTheme = {
-  body: "#F0F0F0",
-  text: "#333333",
-  toggleBorder: "#D6BCFA",
-  background: "#FFFFFF",
-  buttonBackground: "#2E3B55",
-  buttonHover: "#8DA3C1",
-  buttonColor: "#F5F5F5",
-  buttonColorHover: "#2D0C57",
-  borderColor: "#D6BCFA",
-  accent: "#7D3AC1",
-  accentHover: "#692CB0",
-  boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
-  footerShadow: "0 -4px 6px rgba(0, 0, 0, 0.05)",
-  homeBackground: "rgba(255, 255, 255, 0.7)",
-  linkHover: "#2E3B55",
+  body: "#f2eff4",
+  text: "#2E2E2E",
+  textSecondary: "#542344",
+  background: "#ffffff",
+  buttonBackground: "#542344",
+  buttonColor: "#fdfdfd",
+  borderColor: "#542344",
+  accent: "#692CB0",
+
+  // UI
+  boxShadow: "0 4px 6px rgba(0, 0, 0, 0.06)",
+  footerShadow: "0 -4px 6px rgba(0, 0, 0, 0.03)",
+  homeBackground: "rgba(255, 255, 255, 0.8)",
+
+  // State colors
   error: "#FF6B6B",
   success: "#2ECC71",
 
@@ -26,20 +26,22 @@ export const lightTheme = {
 };
 
 export const darkTheme = {
-  body: "#1F2937",
-  text: "#F5F5F5",
-  toggleBorder: "#B985F4",
+  body: "#121212",
+  text: "#f2eff4",
+  textSecondary: "#B985F4",
   background: "#1F2937",
-  buttonBackground: "#4B5563",
-  buttonHover: "#9CA3AF",
-  buttonColor: "#1F2937",
-  buttonColorHover: "#1F2937",
-  borderColor: "#B985F4",
-  accent: "#A78BFA",
-  boxShadow: "0 4px 6px rgba(0, 0, 0, 0.2)",
-  footerShadow: "0 -2px 6px rgba(255, 255, 255, 0.05)",
+  buttonBackground: "#B985F4",
+  buttonColor: "#121212",
+  buttonColorHover: "#542344",
+  borderColor: "#8A3CDB",
+  accent: "#D6BCFA",
+
+  // UI
+  boxShadow: "0 4px 6px rgba(255, 255, 255, 0.06)",
+  footerShadow: "0 -2px 6px rgba(255, 255, 255, 0.02)",
   homeBackground: "rgba(0, 0, 0, 0.6)",
-  linkHover: "#9CA3AF",
+
+  // State colors
   error: "#FF6B6B",
   success: "#2ECC71",
 

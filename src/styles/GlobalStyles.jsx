@@ -57,11 +57,11 @@ export const GlobalStyles = createGlobalStyle`
     transition: color 0.3s ease-in-out;
 
     &:hover {
-      color: ${(props) => props.theme.toggleBorder};
+      color: ${(props) => props.theme.accent};
     }
 
     &:focus {
-      outline: 2px solid ${(props) => props.theme.toggleBorder};
+      outline: 2px solid ${(props) => props.theme.accent};
     }
   }
 

@@ -16,10 +16,7 @@ const Home = lazy(() => import("./pages/Home/Home"));
 const About = lazy(() => import("./pages/About/About"));
 const Contact = lazy(() => import("./pages/Contact/Contact"));
 const Projects = lazy(() => import("./pages/Projects/Projects"));
-const Education = lazy(() => import("./pages/Education/Education"));
-const WorkExperience = lazy(() =>
-  import("./pages/WorkExperience/WorkExperience")
-);
+const Achievements = lazy(() => import("./pages/Achievements/Achievements"));
 
 const App = () => {
   const [theme, setTheme] = useState("light");
@@ -42,11 +39,9 @@ const App = () => {
         <Suspense fallback={<div>{t("loading")}</div>}>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />}>
-              <Route path="work" element={<WorkExperience />} />
-              <Route path="education" element={<Education />} />
-            </Route>
+            <Route path="/about" element={<About />} />
             <Route path="/projects" element={<Projects />} />
+            <Route path="/achievements" element={<Achievements />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="*" element={<NotFound />} />
           </Routes>

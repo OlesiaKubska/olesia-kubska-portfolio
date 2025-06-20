@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 export const CardContainer = styled(motion.div)`
   display: flex;
   flex-direction: column;
-  background-color: ${({ theme }) => theme.backgroundAlt};
+  background-color: ${({ theme }) => theme.background};
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
   border-radius: 12px;
   overflow: hidden;
@@ -48,7 +48,7 @@ export const ProjectContent = styled.div`
   h3 {
     font-size: 1.4rem;
     margin-bottom: 0.5rem;
-    color: ${({ theme }) => theme.text};
+    color: ${({ theme }) => theme.textSecondary};
 
     @media (min-width: ${({ theme }) => theme.breakpoint.tablet}) {
       font-size: 1.8rem;
@@ -58,7 +58,7 @@ export const ProjectContent = styled.div`
   p {
     font-size: 1rem;
     line-height: 1.6;
-    color: ${({ theme }) => theme.textSecondary || theme.text};
+    color: ${({ theme }) => theme.text};
   }
 `;
 
@@ -72,12 +72,12 @@ export const ProjectLinks = styled.div`
     align-items: center;
     gap: 0.5rem;
     text-decoration: none;
-    color: ${({ theme }) => theme.text};
+    color: ${({ theme }) => theme.textSecondary};
     font-weight: 500;
     transition: color 0.3s, transform 0.3s;
 
     &:hover {
-      color: ${({ theme }) => theme.buttonHover};
+      color: ${({ theme }) => theme.accent};
       transform: scale(1.05);
     }
   }

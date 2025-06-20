@@ -23,7 +23,6 @@ export const Navigation = styled.nav`
   top: 65px;
   left: 0;
   width: 100%;
-  background-color: ${({ theme }) => theme.body};
   padding: 1rem;
   box-shadow: ${({ theme }) => theme.boxShadow};
 
@@ -47,12 +46,12 @@ export const StyledNavLink = styled(NavLink)`
   font-size: 0.9rem;
 
   &.active {
-    color: ${({ theme }) => theme.accent};
+    color: ${({ theme }) => theme.textSecondary};
     font-weight: bold;
   }
 
   &:hover {
-    color: ${({ theme }) => theme.toggleBorder};
+    color: ${({ theme }) => theme.accent};
   }
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
@@ -84,9 +83,12 @@ export const LanguageSwitcher = styled.div`
     flex-direction: column;
     align-items: center;
     gap: 4px;
+    transition: color 0.3s, transform 0.3s text-decoration 0.3s;
 
     &:hover {
       text-decoration: underline;
+      color: ${({ theme }) => theme.textSecondary};
+      transform: scale(1.05);
     }
 
     @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
@@ -99,6 +101,13 @@ export const FlagIcon = styled.div`
   width: 20px;
   height: 20px;
   display: inline-block;
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.3s color 0.3s;
+
+  &:hover {
+    transform: scale(1.05);
+  }
 
   svg {
     width: 100%;
