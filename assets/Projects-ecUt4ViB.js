@@ -1,10 +1,15 @@
-import{u as s,a as p,j as t,h,F as b,P as o,r as l}from"./index-B8T0c0Mz.js";import{m as g}from"./motion-C6L0P_PN.js";const x=s.div`
+import{u as s,a as p,j as t,h,F as b,P as o,r as l}from"./index-CYwc4cev.js";import{m as g}from"./motion-Ck5AdCK4.js";const x=s.div`
   padding: 2rem 1rem;
 
   h2 {
+    font-size: 1.4rem;
     margin-bottom: 2rem;
     text-transform: uppercase;
     color: ${({theme:e})=>e.textSecondary};
+
+    @media (min-width: ${({theme:e})=>e.breakpoint.tablet}) {
+      font-size: 2rem;
+    }
   }
 `,k=s.div`
   display: flex;
