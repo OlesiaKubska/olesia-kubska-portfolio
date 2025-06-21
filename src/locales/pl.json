@@ -89,5 +89,17 @@
   "buttons": {
     "team": "Zespół",
     "personal": "Osobisty"
+  },
+  "experience": {
+    "title": "Doświadczenie zawodowe",
+    "taTitle": "Asystent Nauczyciela, Szkoła Podstawowa nr 4, Białystok, Polska (2022–2023)",
+    "taDetail1": "Pomagałam uczniom z Ukrainy w adaptacji do obcego kraju",
+    "taDetail2": "Pełniłam rolę tłumacza polsko-ukraińskiego między uczniami, rodzicami, administracją a nauczycielami",
+
+    "teacherTitle": "Nauczyciel Muzyki, Szkoła Specjalistyczna nr 106, Kijów, Ukraina (2013–2022)",
+    "teacherDetail1": "Prowadziłam lekcje muzyki i sztuki oraz pełniłam rolę wychowawcy",
+    "teacherDetail2": "Byłam sekretarzem rady pedagogicznej",
+    "teacherDetail3": "Uczestniczyłam w konkursie Nauczyciel Roku 2022",
+    "teacherDetail4": "Otrzymałam nagrody i wyróżnienia za wybitną pracę"
   }
 }

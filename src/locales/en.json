@@ -89,5 +89,17 @@
   "buttons": {
     "team": "Team",
     "personal": "Personal"
+  },
+  "experience": {
+    "title": "Work Experience",
+    "taTitle": "Teacher Assistant, Elementary School No. 4, Bialystok, Poland (2022–2023)",
+    "taDetail1": "Assisted students from Ukraine in adapting to a foreign country",
+    "taDetail2": "Served as a Polish-Ukrainian translator between students, parents, administration, and teachers",
+
+    "teacherTitle": "Music Teacher, Specialized School No. 106, Kyiv, Ukraine (2013–2022)",
+    "teacherDetail1": "Conducted music and art lessons and acted as a homeroom teacher",
+    "teacherDetail2": "Served as the secretary of the pedagogical council",
+    "teacherDetail3": "Participated in the Teacher of the Year 2022 competition",
+    "teacherDetail4": "Awarded and recognized for outstanding work"
   }
 }

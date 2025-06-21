@@ -1,21 +1,18 @@
 import styled from "styled-components";
 
 export const AchievementsPage = styled.div`
-  padding: 2rem;
-  max-width: 1200px;
+  padding: 2rem 0;
   margin: 0 auto;
-  text-align: center;
-
-  h2 {
-    font-size: 2.5rem;
-    margin-bottom: 1.5rem;
-    color: ${({ theme }) => theme.textSecondary};
-  }
 `;
 
-export const SectionTitle = styled.h3`
-  font-size: 2rem;
-  margin-bottom: 1.5rem;
+export const SectionTitle = styled.h2`
+  font-size: 1.4rem;
+  margin-bottom: 2rem;
   color: ${({ theme }) => theme.textSecondary};
   text-align: left;
+  text-transform: uppercase;
+
+  @media (min-width: ${({ theme }) => theme.breakpoint.tablet}) {
+    font-size: 2rem;
+  }
 `;

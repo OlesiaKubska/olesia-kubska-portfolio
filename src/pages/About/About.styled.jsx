@@ -11,13 +11,6 @@ export const AboutContainer = styled(motion.div)`
     margin-bottom: 1.5rem;
     color: ${({ theme }) => theme.textSecondary};
   }
-
-  p {
-    font-size: 1.2rem;
-    line-height: 1.6;
-    margin-bottom: 1.5rem;
-    text-align: left;
-  }
 `;
 
 export const SkillsSection = styled(motion.section)`
@@ -29,5 +22,43 @@ export const SkillsSection = styled(motion.section)`
     margin-bottom: 1rem;
     text-align: center;
     color: ${({ theme }) => theme.textSecondary};
+  }
+`;
+
+export const AboutImage = styled.img`
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+
+  @media (min-width: ${({ theme }) => theme.breakpoint.tablet}) {
+    width: 300px;
+    height: 100%;
+  }
+`;
+
+export const AboutBox = styled(motion.div)`
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  text-align: center;
+  gap: 1.5rem;
+
+  p {
+    font-size: 1rem;
+    line-height: 1.25;
+    margin-bottom: 1.5rem;
+    text-align: left;
+  }
+
+  @media (min-width: ${({ theme }) => theme.breakpoint.tablet}) {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    @media (min-width: ${({ theme }) => theme.breakpoint.desktop}) {
+      p {
+        font-size: 1.7rem;
+      }
   }
 `;

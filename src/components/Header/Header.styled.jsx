@@ -20,6 +20,7 @@ export const Navigation = styled.nav`
   flex-direction: column;
   position: absolute;
   text-transform: uppercase;
+  background-color: ${({ theme }) => theme.body};
   top: 65px;
   left: 0;
   width: 100%;

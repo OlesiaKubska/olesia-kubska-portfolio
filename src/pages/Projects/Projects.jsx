@@ -1,7 +1,6 @@
 import { useRef } from "react";
 import { ProjectsContainer, ToggleButtons } from "./Projects.styled";
 import { useTranslation } from "react-i18next";
-
 import ProjectCard from "../../components/ProjectCard/ProjectCard";
 import { teamProjects, personalProjects } from "../../data/projectsData";
 import PrimaryButton from "../../components/Buttons/PrimaryButton";
