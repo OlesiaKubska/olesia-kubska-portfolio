@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const ExperienceContainer = styled.div`
+  position: relative;
   padding: 2rem 0.5rem;
   background-color: ${({ theme }) => theme.background};
   border-radius: 12px;
@@ -10,6 +11,11 @@ export const ExperienceContainer = styled.div`
 
   @media (min-width: ${({ theme }) => theme.breakpoint.tablet}) {
     padding: 2rem;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    color: ${({ theme }) => theme.accent};
   }
 `;
 

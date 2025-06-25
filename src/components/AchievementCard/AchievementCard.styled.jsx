@@ -6,10 +6,13 @@ export const Card = styled.div`
   border-radius: 12px;
   box-shadow: ${({ theme }) => theme.boxShadow};
   overflow: hidden;
-  width: 100%;
+  width: 260px;
+  max-width: 100%;
   height: 100%;
+  max-height: 600px;
   display: flex;
   flex-direction: column;
+  margin: 0 auto;
   transition: transform 0.3s ease;
   cursor: pointer;
 
@@ -18,25 +21,40 @@ export const Card = styled.div`
   }
 
   @media (min-width: ${({ theme }) => theme.breakpoint.tablet}) {
-    max-width: 420px;
+    width: 400px;
+    max-height: 600px;
   }
 
   @media (min-width: ${({ theme }) => theme.breakpoint.desktop}) {
-    max-width: 480px;
+    width: 480px;
+    max-height: 740px;
+  }
+
+  @media (min-width: 1024px) and (max-width: 1279px) {
+    width: 440px;
+    max-height: 680px;
   }
 `;
 
 export const CardImage = styled.img`
   width: 100%;
   height: auto;
-  max-height: 420px;
+  max-height: 320px;
   object-fit: cover;
   flex-shrink: 0;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
 
   @media (min-width: ${({ theme }) => theme.breakpoint.tablet}) {
-    max-height: 500px;
+    max-height: 400px;
+  }
+
+  @media (min-width: ${({ theme }) => theme.breakpoint.desktop}) {
+    max-height: 540px;
+  }
+
+  @media (min-width: 1024px) and (max-width: 1279px) {
+    max-height: 480px;
   }
 `;
 

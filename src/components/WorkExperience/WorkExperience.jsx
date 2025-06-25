@@ -15,7 +15,7 @@ const WorkExperience = () => {
     {
       title: t("experience.taTitle"),
       description: [t("experience.taDetail1"), t("experience.taDetail2")],
-      school: "Elementary School No. 4, Białystok",
+      school: t("experience.taSchool"),
       image: supportImage,
     },
     {
@@ -26,7 +26,7 @@ const WorkExperience = () => {
         t("experience.teacherDetail3"),
         t("experience.teacherDetail4"),
       ],
-      school: "Specialized School No. 106, Kyiv",
+      school: t("experience.teacherSchool"),
       image: teacherImage,
     },
   ];
@@ -41,9 +41,6 @@ const WorkExperience = () => {
         slidesPerView={1}
         breakpoints={{
           768: {
-            slidesPerView: 1,
-          },
-          1024: {
             slidesPerView: 2,
           },
         }}

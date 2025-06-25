@@ -26,6 +26,7 @@ export const Navigation = styled.nav`
   width: 100%;
   padding: 1rem;
   box-shadow: ${({ theme }) => theme.boxShadow};
+  z-index: 1000;
 
   @media (min-width: ${({ theme }) => theme.breakpoint.desktop}) {
     display: flex;
