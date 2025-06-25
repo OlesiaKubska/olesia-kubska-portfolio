@@ -1,4 +1,4 @@
-import{u as s,a as p,j as t,h,F as b,P as o,r as l}from"./index-CYwc4cev.js";import{m as g}from"./motion-Ck5AdCK4.js";const x=s.div`
+import{u as s,a as p,j as t,h,F as b,P as o,r as l}from"./index-DhNJUr_Q.js";import{m as g}from"./motion-D1kjYiOW.js";const x=s.div`
   padding: 2rem 1rem;
 
   h2 {

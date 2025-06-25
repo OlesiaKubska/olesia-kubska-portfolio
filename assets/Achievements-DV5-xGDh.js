@@ -1,4 +1,4 @@
-import{j as O,u as $,a as Ie,r as A,R as G,P as X}from"./index-CYwc4cev.js";const Ye=()=>O.jsx("div",{children:O.jsx("h2",{children:"Certifications"})}),Ue=$.div`
+import{j as O,u as $,a as Ie,r as A,R as G,P as X}from"./index-DhNJUr_Q.js";const Ye=()=>O.jsx("div",{children:O.jsx("h2",{children:"Certifications"})}),Ue=$.div`
  padding: 20px;
  background-color: ${({theme:e})=>e.body};
  border-radius: 8px;
@@ -28,10 +28,13 @@ import{j as O,u as $,a as Ie,r as A,R as G,P as X}from"./index-CYwc4cev.js";cons
   border-radius: 12px;
   box-shadow: ${({theme:e})=>e.boxShadow};
   overflow: hidden;
-  width: 100%;
+  width: 260px;
+  max-width: 100%;
   height: 100%;
+  max-height: 600px;
   display: flex;
   flex-direction: column;
+  margin: 0 auto;
   transition: transform 0.3s ease;
   cursor: pointer;
 
@@ -40,23 +43,38 @@ import{j as O,u as $,a as Ie,r as A,R as G,P as X}from"./index-CYwc4cev.js";cons
   }
 
   @media (min-width: ${({theme:e})=>e.breakpoint.tablet}) {
-    max-width: 420px;
+    width: 400px;
+    max-height: 600px;
   }
 
   @media (min-width: ${({theme:e})=>e.breakpoint.desktop}) {
-    max-width: 480px;
+    width: 480px;
+    max-height: 740px;
+  }
+
+  @media (min-width: 1024px) and (max-width: 1279px) {
+    width: 440px;
+    max-height: 680px;
   }
 `,zi=$.img`
   width: 100%;
   height: auto;
-  max-height: 420px;
+  max-height: 320px;
   object-fit: cover;
   flex-shrink: 0;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
 
   @media (min-width: ${({theme:e})=>e.breakpoint.tablet}) {
-    max-height: 500px;
+    max-height: 400px;
+  }
+
+  @media (min-width: ${({theme:e})=>e.breakpoint.desktop}) {
+    max-height: 540px;
+  }
+
+  @media (min-width: 1024px) and (max-width: 1279px) {
+    max-height: 480px;
   }
 `,Ai=$.div`
   padding: 1rem;
@@ -111,6 +129,7 @@ import{j as O,u as $,a as Ie,r as A,R as G,P as X}from"./index-CYwc4cev.js";cons
     font-size: 0.75rem;
   }
 `,We=({image:e,title:t,description:i,school:s})=>O.jsxs(Oi,{children:[O.jsx(zi,{src:e,alt:t}),O.jsxs(Ai,{children:[O.jsx(_i,{children:t}),O.jsx(Gi,{children:Array.isArray(i)?i.map((n,r)=>O.jsx("p",{children:n},r)):O.jsx("p",{children:i})}),s&&O.jsx(Di,{children:s})]})]});We.propTypes={image:X.string.isRequired,title:X.string.isRequired,description:X.oneOfType([X.string,X.arrayOf(X.string)]).isRequired,school:X.string};const Vi=$.div`
+  position: relative;
   padding: 2rem 0.5rem;
   background-color: ${({theme:e})=>e.background};
   border-radius: 12px;
@@ -120,6 +139,11 @@ import{j as O,u as $,a as Ie,r as A,R as G,P as X}from"./index-CYwc4cev.js";cons
 
   @media (min-width: ${({theme:e})=>e.breakpoint.tablet}) {
     padding: 2rem;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    color: ${({theme:e})=>e.accent};
   }
 `,$i=$.h2`
   font-size: 1.8rem;
@@ -131,7 +155,7 @@ import{j as O,u as $,a as Ie,r as A,R as G,P as X}from"./index-CYwc4cev.js";cons
   @media (min-width: ${({theme:e})=>e.breakpoint.tablet}) {
     font-size: 2rem;
   }
-`,ki="/olesia-kubska-portfolio/assets/teacher-CvwtdI0S.jpg",Bi="/olesia-kubska-portfolio/assets/teacher-support-B_KXHXAz.jpg",Ni=()=>{const{t:e}=Ie(),t=[{title:e("experience.taTitle"),description:[e("experience.taDetail1"),e("experience.taDetail2")],school:"Elementary School No. 4, Białystok",image:Bi},{title:e("experience.teacherTitle"),description:[e("experience.teacherDetail1"),e("experience.teacherDetail2"),e("experience.teacherDetail3"),e("experience.teacherDetail4")],school:"Specialized School No. 106, Kyiv",image:ki}];return O.jsxs(Vi,{children:[O.jsx($i,{children:e("experience.title")}),O.jsx(Fe,{modules:[Li],navigation:!0,spaceBetween:30,slidesPerView:1,breakpoints:{768:{slidesPerView:1},1024:{slidesPerView:2}},children:t.map((i,s)=>O.jsx(He,{style:{overflow:"hidden",display:"flex",flexDirection:"column"},children:O.jsx(We,{image:i.image,title:i.title,description:i.description,school:i.school})},s))})]})},ji=$.div`
+`,ki="/olesia-kubska-portfolio/assets/teacher-CvwtdI0S.jpg",Bi="/olesia-kubska-portfolio/assets/teacher-support-B_KXHXAz.jpg",Ni=()=>{const{t:e}=Ie(),t=[{title:e("experience.taTitle"),description:[e("experience.taDetail1"),e("experience.taDetail2")],school:e("experience.taSchool"),image:Bi},{title:e("experience.teacherTitle"),description:[e("experience.teacherDetail1"),e("experience.teacherDetail2"),e("experience.teacherDetail3"),e("experience.teacherDetail4")],school:e("experience.teacherSchool"),image:ki}];return O.jsxs(Vi,{children:[O.jsx($i,{children:e("experience.title")}),O.jsx(Fe,{modules:[Li],navigation:!0,spaceBetween:30,slidesPerView:1,breakpoints:{768:{slidesPerView:2}},children:t.map((i,s)=>O.jsx(He,{style:{overflow:"hidden",display:"flex",flexDirection:"column"},children:O.jsx(We,{image:i.image,title:i.title,description:i.description,school:i.school})},s))})]})},ji=$.div`
   padding: 2rem 0;
   margin: 0 auto;
 `,Ri=$.h2`
