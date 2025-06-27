@@ -1,11 +1,11 @@
-import{u as t,a as r,j as e}from"./index-DhNJUr_Q.js";import{m as a}from"./motion-D1kjYiOW.js";import{S as n}from"./SkillGrid-3SETbqVq.js";import s from"./Contact-BoIcDGa2.js";const c="/olesia-kubska-portfolio/assets/background-desktop-fcBKqUtT.png",d="/olesia-kubska-portfolio/assets/background-mobile-CT6pKZ-M.png",l="/olesia-kubska-portfolio/assets/background-tablet-ChqLgS9L.png",m=t.div`
+import{u as e,a as r,j as t}from"./index-DReV82HJ.js";import{m as a}from"./motion-B_C8MPqM.js";import{S as n}from"./SkillGrid-idTlzdof.js";import s from"./Contact-nvS_4d1I.js";const d="/olesia-kubska-portfolio/assets/background-desktop-fcBKqUtT.png",c="/olesia-kubska-portfolio/assets/background-mobile-CT6pKZ-M.png",l="/olesia-kubska-portfolio/assets/background-tablet-ChqLgS9L.png",m=e.div`
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   min-height: 100vh;
   background-position: center;
-  background-image: url(${d});
+  background-image: url(${c});
   background-size: cover;
   background-repeat: no-repeat;
 
@@ -13,9 +13,9 @@ import{u as t,a as r,j as e}from"./index-DhNJUr_Q.js";import{m as a}from"./motio
     background-image: url(${l});
   }
   @media screen and (min-width: ${({theme:o})=>o.breakpoint.desktop}) {
-    background-image: url(${c});
+    background-image: url(${d});
   }
-`,p=t(a.div)`
+`,p=e(a.div)`
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -39,7 +39,7 @@ import{u as t,a as r,j as e}from"./index-DhNJUr_Q.js";import{m as a}from"./motio
   @media (max-width: ${({theme:o})=>o.breakpoint.mobile}) {
     padding: 10px;
   }
-`,x=t.img`
+`,b=e.img`
   width: 100%;
   max-width: 280px;
   height: 280px;
@@ -52,14 +52,14 @@ import{u as t,a as r,j as e}from"./index-DhNJUr_Q.js";import{m as a}from"./motio
     margin-bottom: 15px;
     border-radius: 20%;
   }
-`,b=t.div`
+`,x=e.div`
   display: flex;
   text-align: center;
   flex-wrap: wrap;
   justify-content: center;
-`,i=t.a`
+`,i=e.a`
   display: inline-block;
-  background-color: ${({theme:o})=>o.accent};
+  background-color: ${({theme:o})=>o.buttonBackground};
   color: ${({theme:o})=>o.buttonColor};
   text-align: center;
   padding: 0.8rem 1.6rem;
@@ -73,8 +73,8 @@ import{u as t,a as r,j as e}from"./index-DhNJUr_Q.js";import{m as a}from"./motio
   &:hover {
     background-color: transparent;
     transform: scale(1.05);
-    color: ${({theme:o})=>o.accent};
-    border: 2px solid ${({theme:o})=>o.accent};
+    color: ${({theme:o})=>o.buttonBackground};
+    border: 2px solid ${({theme:o})=>o.buttonBackground};
   }
 
   &:active {
@@ -85,21 +85,21 @@ import{u as t,a as r,j as e}from"./index-DhNJUr_Q.js";import{m as a}from"./motio
     padding: 8px 16px;
     font-size: 14px;
   }
-`,g=t.a`
+`,g=e.a`
   display: inline-block;
   background-color: transparent;
-  color: ${({theme:o})=>o.accent};
+  color: ${({theme:o})=>o.buttonBackground};
   text-align: center;
   padding: 0.8rem 1.6rem;
   margin: 5px;
   font-weight: 600;
-  border: 2px solid ${({theme:o})=>o.accent};
+  border: 2px solid ${({theme:o})=>o.buttonBackground};
   border-radius: 8px;
   box-shadow: ${({theme:o})=>o.boxShadow};
   transition: background-color 0.3s, transform 0.2s ease;
 
   &:hover {
-    background-color: ${({theme:o})=>o.accent};
+    background-color: ${({theme:o})=>o.buttonBackground};
     transform: scale(1.05);
     color: ${({theme:o})=>o.body};
   }
@@ -112,10 +112,10 @@ import{u as t,a as r,j as e}from"./index-DhNJUr_Q.js";import{m as a}from"./motio
     padding: 8px 16px;
     font-size: 14px;
   }
-`,h=t(a.div)`
+`,u=e(a.div)`
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
   background-color: ${({theme:o})=>o.body};
   color: ${({theme:o})=>o.text};
-`,u="/olesia-kubska-portfolio/assets/olesia-kubska-Cdzx5Dr1.png",$=()=>{const{t:o}=r();return e.jsxs(e.Fragment,{children:[e.jsx(m,{children:e.jsxs(p,{initial:{opacity:0},animate:{opacity:1},exit:{opacity:0},children:[e.jsxs("div",{children:[e.jsx("h1",{children:o("homeTitle")}),e.jsx("p",{children:o("homeDescription")})]}),e.jsx(x,{src:u,alt:"Olesia Kubska"}),e.jsxs(b,{children:[e.jsx(i,{href:"olesia-kubska-portfolio/projects",children:o("viewWork")}),e.jsx(g,{href:"olesia-kubska-portfolio/contact",children:o("contactMe")}),e.jsx(i,{href:"./docs/OlesiaKubskaCV.pdf",download:"OlesiaKubskaCV.pdf",children:o("downloadResume")})]})]})}),e.jsxs(h,{initial:{opacity:0},animate:{opacity:1},exit:{opacity:0},children:[e.jsx("h3",{children:o("techSkills")}),e.jsx(n,{})]}),e.jsx("div",{children:e.jsx(s,{})})]})};export{$ as default};
+`,k="/olesia-kubska-portfolio/assets/olesia-kubska-Cdzx5Dr1.png",$=()=>{const{t:o}=r();return t.jsxs(t.Fragment,{children:[t.jsx(m,{children:t.jsxs(p,{initial:{opacity:0},animate:{opacity:1},exit:{opacity:0},children:[t.jsxs("div",{children:[t.jsx("h1",{children:o("homeTitle")}),t.jsx("p",{children:o("homeDescription")})]}),t.jsx(b,{src:k,alt:"Olesia Kubska"}),t.jsxs(x,{children:[t.jsx(i,{href:"olesia-kubska-portfolio/projects",children:o("viewWork")}),t.jsx(g,{href:"olesia-kubska-portfolio/contact",children:o("contactMe")}),t.jsx(i,{href:"./docs/OlesiaKubskaCV.pdf",download:"OlesiaKubskaCV.pdf",children:o("downloadResume")})]})]})}),t.jsxs(u,{initial:{opacity:0},animate:{opacity:1},exit:{opacity:0},children:[t.jsx("h3",{children:o("techSkills")}),t.jsx(n,{})]}),t.jsx("div",{children:t.jsx(s,{})})]})};export{$ as default};
