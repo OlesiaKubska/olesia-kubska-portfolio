@@ -69,9 +69,10 @@ const Contact = () => {
 
   return (
     <ContactContainer
-      initial={{ scale: 0.8, opacity: 0 }}
-      animate={{ scale: 1, opacity: 1 }}
-      exit={{ scale: 0.5, opacity: 0 }}
+      initial={{ x: -200, opacity: 0 }}
+      animate={{ x: 0, opacity: 1 }}
+      exit={{ x: 200, opacity: 0 }}
+      transition={{ type: "spring", stiffness: 100 }}
     >
       <LeftSide>
         <h3>{t("connect")}</h3>

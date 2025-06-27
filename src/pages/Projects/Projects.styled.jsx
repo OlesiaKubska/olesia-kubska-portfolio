@@ -1,6 +1,7 @@
 import styled from "styled-components";
+import { motion } from "framer-motion";
 
-export const ProjectsContainer = styled.div`
+export const ProjectsContainer = styled(motion.div)`
   padding: 2rem 1rem;
 
   h2 {

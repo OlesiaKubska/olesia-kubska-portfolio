@@ -1,35 +1,32 @@
 import styled from "styled-components";
 
 export const EducationContainer = styled.div`
- padding: 20px;
- background-color: ${({ theme }) => theme.body};
- border-radius: 8px;
- box-shadow: ${({ theme }) => theme.boxShadow};
- margin: 20px;
- background-color: ${({ theme }) => theme.background};
-`;
+  position: relative;
+  padding: 2rem 0.5rem;
+  background-color: ${({ theme }) => theme.background};
+  border-radius: 12px;
+  box-shadow: ${({ theme }) => theme.boxShadow};
+  margin: 0 auto 1rem auto;
+  align-items: center;
 
-export const University = styled.ul`
- margin-bottom: 15px;
- list-style-type: disc;
- margin-left: 20px;
+  @media (min-width: ${({ theme }) => theme.breakpoint.tablet}) {
+    padding: 2rem;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    color: ${({ theme }) => theme.accent};
+  }
 `;
 
 export const Title = styled.h2`
- color: ${({ theme }) => theme.linkHover};
- font-size: 1.5em;
- display: flex;
- justify-content: center;
-`;
+  font-size: 1.8rem;
+  color: ${({ theme }) => theme.accent};
+  text-align: center;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
 
-export const Info = styled.p`
- font-size: 1em;
- color: ${({ theme }) => theme.text};
- line-height: 1.4;
-`;
-
-export const Item = styled.li`
- margin-bottom: 10px;
- color: ${({ theme }) => theme.text};
- font-weight: bold;
+  @media (min-width: ${({ theme }) => theme.breakpoint.tablet}) {
+    font-size: 2rem;
+  }
 `;

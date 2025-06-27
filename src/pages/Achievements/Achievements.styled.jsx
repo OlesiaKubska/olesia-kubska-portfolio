@@ -1,6 +1,7 @@
 import styled from "styled-components";
+import { motion } from "framer-motion";
 
-export const AchievementsPage = styled.div`
+export const AchievementsPage = styled(motion.div)`
   padding: 2rem 0;
   margin: 0 auto;
 `;

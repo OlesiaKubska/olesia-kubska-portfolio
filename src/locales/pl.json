@@ -20,7 +20,6 @@
  "softSkills": "Umiejętności miękkie",
  "languages": "Języki",
  "workExperience": "Doświadczenie zawodowe",
- "education": "Edukacja",
  "softSkillItems": {
   "organized": "Zorganizowana",
   "teamwork": "Praca zespołowa",
@@ -36,15 +35,6 @@
   "english": "Angielski - Średniozaawansowany (Intermediate)",
   "polish": "Polski - Zaawansowany (Certyfikat B2)"
  },
- "educationTitle": "Edukacja",
- "bialystokUniversity": "Politechnika Białostocka | Polska",
- "jsDeveloperCourse": "„JavaScript Developer” | Październik 2023 - Lipiec 2024",
- "golTSchool": "Szkoła IT GolT | Ukraina",
- "fullStackCourse": "„Full Stack Developer” | 2023 – 2024 | CERTYFIKAT",
- "dragomanovUniversityManagement": "Narodowy Uniwersytet Pedagogiczny im. Dragomanowa | Ukraina",
- "managementCourse": "„Zarządzanie placówką edukacyjną” | 2014 – 2016 | MAGISTER | Menedżer biura, biznesu i organizacji",
- "dragomanovUniversityMusic": "Narodowy Uniwersytet Pedagogiczny im. Dragomanowa | Ukraina",
- "musicCourse": "„Sztuka muzyczna” | 2010 - 2015 | MAGISTER | Nauczyciel metodyk edukacji muzycznej, nauczyciel muzyki i dyrygent chóru",
  "connect": "Połączmy się!",
  "yourName": "Imię",
  "yourEmail": "Email",
@@ -103,5 +93,48 @@
     "teacherDetail3": "Uczestniczyłam w konkursie Nauczyciel Roku 2022",
     "teacherDetail4": "Otrzymałam nagrody i wyróżnienia za wybitną pracę",
     "teacherSchool": "Szkoła Specjalistyczna nr 106, Kijów, Ukraina (2013–2022)"
-  }
+  },
+  "education": {
+  "title": "Edukacja",
+  "items": [
+    {
+      "title": "“JavaScript Developer” | CERTIFICATE",
+      "description": [
+        "Kompleksowy kurs JavaScript skoncentrowany na nowoczesnych technologiach internetowych.",
+        "Zajęcia obejmowały zaawansowane techniki programowania, tworzenie aplikacji internetowych i integrację API.",
+        "Praktyczne projekty do utrwalenia wiedzy i umiejętności."
+      ],
+      "school": "Politechnika Białostocka | Polska | Październik 2023 – Lipiec 2024"
+    },
+    {
+      "title": "“Full Stack Developer” | CERTIFICATE",
+      "description": [
+        "Uczestnictwo w projektach zespołowych, przegląd kodu i współpraca w Agile.",
+        "Kompleksowy program Full Stack Developer skoncentrowany na nowoczesnych technologiach internetowych.",
+        "Zajęcia obejmowały zarówno frontend, jak i backend, w tym HTML5, CSS3, JavaScript, Node.js i bazy danych SQL."
+      ],
+      "school": "IT School GolT | Ukraina | Grudzień 2022 – Styczeń 2024"
+    },
+    {
+      "title": "Dyplom magistra",
+      "description": [
+        "Ukończyła studia w 2016 roku na Narodowym Uniwersytecie Pedagogicznym im. M.P. Dragomanova",
+        "Zdobyła stopień magistra w specjalności „Zarządzanie placówką oświatową”",
+        "Zdobyła  kwalifikacje Menedżera ds. biznesu, administracji i organizacji (w obszarze edukacji i szkoleń zawodowych)",
+        "Ukraina"
+      ],
+      "school": "Narodowy Uniwersytet Pedagogiczny im. M.P. Dragomanova"
+    },
+    {
+      "title": "Dyplom magistra",
+      "description": [
+        "Ukończyła studia w 2016 roku na Narodowym Uniwersytecie Pedagogicznym im. M.P. Dragomanova",
+        "Zdobyła stopień magistra w specjalności “Sztuka muzyczna”",
+        "Zdobyła kwalifikacje nauczyciela przedmiotów artystycznych, nauczyciela muzyki, dyrygenta chóru kościelnego",
+        "Ukraina"
+      ],
+      "school": "Narodowy Uniwersytet Pedagogiczny im. M.P. Dragomanova"
+    }
+  ]
+}
 }

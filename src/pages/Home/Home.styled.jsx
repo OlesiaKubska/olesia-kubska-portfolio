@@ -74,7 +74,7 @@ export const ButtonBox = styled.div`
 
 export const Button = styled.a`
   display: inline-block;
-  background-color: ${({ theme }) => theme.accent};
+  background-color: ${({ theme }) => theme.buttonBackground};
   color: ${({ theme }) => theme.buttonColor};
   text-align: center;
   padding: 0.8rem 1.6rem;
@@ -88,8 +88,8 @@ export const Button = styled.a`
   &:hover {
     background-color: transparent;
     transform: scale(1.05);
-    color: ${({ theme }) => theme.accent};
-    border: 2px solid ${({ theme }) => theme.accent};
+    color: ${({ theme }) => theme.buttonBackground};
+    border: 2px solid ${({ theme }) => theme.buttonBackground};
   }
 
   &:active {
@@ -105,18 +105,18 @@ export const Button = styled.a`
 export const ButtonSecondary = styled.a`
   display: inline-block;
   background-color: transparent;
-  color: ${({ theme }) => theme.accent};
+  color: ${({ theme }) => theme.buttonBackground};
   text-align: center;
   padding: 0.8rem 1.6rem;
   margin: 5px;
   font-weight: 600;
-  border: 2px solid ${({ theme }) => theme.accent};
+  border: 2px solid ${({ theme }) => theme.buttonBackground};
   border-radius: 8px;
   box-shadow: ${({ theme }) => theme.boxShadow};
   transition: background-color 0.3s, transform 0.2s ease;
 
   &:hover {
-    background-color: ${({ theme }) => theme.accent};
+    background-color: ${({ theme }) => theme.buttonBackground};
     transform: scale(1.05);
     color: ${({ theme }) => theme.body};
   }

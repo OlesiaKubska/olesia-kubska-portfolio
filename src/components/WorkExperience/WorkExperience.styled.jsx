@@ -6,7 +6,7 @@ export const ExperienceContainer = styled.div`
   background-color: ${({ theme }) => theme.background};
   border-radius: 12px;
   box-shadow: ${({ theme }) => theme.boxShadow};
-  margin: 0 auto;
+  margin: 0 auto 1rem auto;
   align-items: center;
 
   @media (min-width: ${({ theme }) => theme.breakpoint.tablet}) {

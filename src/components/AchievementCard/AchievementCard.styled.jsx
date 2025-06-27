@@ -59,14 +59,14 @@ export const CardImage = styled.img`
 `;
 
 export const CardContent = styled.div`
-  padding: 1rem;
+  padding: 0.75rem;
   flex: 1;
   display: flex;
   flex-direction: column;
   overflow-y: auto;
 
-  @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
-    padding: 0.75rem;
+  @media (min-width: ${({ theme }) => theme.breakpoint.tablet}) {
+    padding: 1rem;
   }
 
   scrollbar-width: thin;
@@ -83,18 +83,23 @@ export const CardContent = styled.div`
 `;
 
 export const Title = styled.h3`
-  font-size: 1.1rem;
+  font-size: 0.95rem;
   margin-bottom: 0.5rem;
+  text-transform: uppercase;
   font-weight: bold;
   color: ${({ theme }) => theme.accent};
 
-  @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
-    font-size: 0.95rem;
+  @media (min-width: ${({ theme }) => theme.breakpoint.tablet}) {
+    font-size: 1.1rem;
+  }
+
+  @media (min-width: ${({ theme }) => theme.breakpoint.desktop}) {
+    font-size: 1.4rem;
   }
 `;
 
 export const Description = styled.div`
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   margin-bottom: 0.75rem;
   color: ${({ theme }) => theme.text};
   line-height: 1.4;
@@ -103,17 +108,25 @@ export const Description = styled.div`
     margin-top: 0.5rem;
   }
 
-  @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
-    font-size: 0.85rem;
+  @media (min-width: ${({ theme }) => theme.breakpoint.tablet}) {
+    font-size: 1rem;
+  }
+
+  @media (min-width: ${({ theme }) => theme.breakpoint.desktop}) {
+    font-size: 1.35rem;
   }
 `;
 
 export const School = styled.span`
-  font-size: 0.8rem;
+  font-size: 0.75rem;
   color: ${({ theme }) => theme.accent};
   font-style: italic;
 
-  @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
-    font-size: 0.75rem;
+  @media (min-width: ${({ theme }) => theme.breakpoint.tablet}) {
+    font-size: 0.9rem;
+  }
+
+  @media (min-width: ${({ theme }) => theme.breakpoint.desktop}) {
+    font-size: 1.25rem;
   }
 `;
