@@ -2,16 +2,20 @@ import styled from "styled-components";
 import { NavLink } from "react-router-dom";
 
 export const HeaderContainer = styled.header`
+  background-color: ${({ theme }) => theme.body};
+  padding: 0.5rem 0;
+  box-shadow: ${({ theme }) => theme.boxShadow};
+
+  @media (min-width: ${({ theme }) => theme.breakpoint.tablet}) {
+    padding: 1rem 0;
+  }
+`;
+
+export const HeaderContent = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: ${({ theme }) => theme.body};
-  padding: 1rem;
-  box-shadow: ${({ theme }) => theme.boxShadow};
-
-  @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
-    padding: 0.5rem;
-  }
+  padding: 0 0.5rem;
 `;
 
 export const Navigation = styled.nav`
@@ -62,12 +66,12 @@ export const StyledNavLink = styled(NavLink)`
 `;
 
 export const BurgerMenuIcon = styled.div`
-  display: none;
+  display: block;
+  font-size: 2rem;
+  cursor: pointer;
 
-  @media (max-width: ${({ theme }) => theme.breakpoint.tablet}) {
-    display: block;
-    font-size: 2rem;
-    cursor: pointer;
+  @media (min-width: ${({ theme }) => theme.breakpoint.desktop}) {
+    display: none;
   }
 `;
 

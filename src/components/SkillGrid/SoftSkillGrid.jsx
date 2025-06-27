@@ -18,7 +18,7 @@ const SoftSkillGrid = () => (
         transition={{ duration: 0.5, delay: i * 0.05 }}
         viewport={{ once: true }}
       >
-        <span style={{ fontSize: "1.5rem", marginRight: "0.5rem" }}>
+        <span style={{ fontSize: "3rem", marginRight: "0.5rem" }}>
           {skill.icon}
         </span>
         {skill.name}

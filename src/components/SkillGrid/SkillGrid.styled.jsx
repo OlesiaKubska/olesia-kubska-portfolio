@@ -4,9 +4,14 @@ import { motion } from "framer-motion";
 export const Grid = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-  gap: 2rem;
+  gap: 1rem;
   justify-items: center;
-  padding: 2rem 0;
+  padding: 1rem 0;
+
+  @media (min-width: ${({ theme }) => theme.breakpoint.tablet}) {
+    gap: 2rem;
+    padding: 2rem 0;
+  }
 `;
 
 export const SkillCard = styled(motion.div)`

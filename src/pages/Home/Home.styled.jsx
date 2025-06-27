@@ -31,22 +31,25 @@ export const HomeContainer = styled(motion.div)`
   align-items: center;
   min-height: 100vh;
   width: 100%;
-  max-width: 1200px;
   margin: 0 auto;
-  padding: 20px;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   background-color: ${({ theme }) => theme.homeBackground};
   overflow: hidden;
 
-  h1 {
-    text-align: center;
-  }
-
+  h1,
   p {
     text-align: center;
   }
 
-  @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
-    padding: 10px;
+  @media (min-width: ${({ theme }) => theme.breakpoint.tablet}) {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  @media (min-width: ${({ theme }) => theme.breakpoint.desktop}) {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
   }
 `;
 
@@ -70,18 +73,17 @@ export const ButtonBox = styled.div`
   text-align: center;
   flex-wrap: wrap;
   justify-content: center;
+  margin-top: 1rem;
+  gap: 10px;
 `;
 
 export const Button = styled.a`
-  display: inline-block;
   background-color: ${({ theme }) => theme.buttonBackground};
   color: ${({ theme }) => theme.buttonColor};
-  text-align: center;
-  padding: 0.8rem 1.6rem;
-  margin: 5px;
+  padding: 0.5rem 1rem;
   font-weight: 600;
   border: 1px solid ${({ theme }) => theme.borderColor};
-  border-radius: 8px;
+  border-radius: 12px;
   box-shadow: ${({ theme }) => theme.boxShadow};
   transition: background-color 0.3s, transform 0.2s ease;
 
@@ -96,20 +98,18 @@ export const Button = styled.a`
     transform: scale(0.95);
   }
 
-  @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
-    padding: 8px 16px;
-    font-size: 14px;
+  @media (min-width: ${({ theme }) => theme.breakpoint.tablet}) {
+    padding: 0.8rem 1.6rem;
+    font-size: 16px;
   }
 `;
 
 export const ButtonSecondary = styled.a`
-  display: inline-block;
   background-color: transparent;
   color: ${({ theme }) => theme.buttonBackground};
-  text-align: center;
-  padding: 0.8rem 1.6rem;
-  margin: 5px;
+  padding: 0.5rem 1rem;
   font-weight: 600;
+  font-size: 14px;
   border: 2px solid ${({ theme }) => theme.buttonBackground};
   border-radius: 8px;
   box-shadow: ${({ theme }) => theme.boxShadow};
@@ -125,16 +125,40 @@ export const ButtonSecondary = styled.a`
     transform: scale(0.95);
   }
 
-  @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
-    padding: 8px 16px;
-    font-size: 14px;
+  @media (min-width: ${({ theme }) => theme.breakpoint.tablet}) {
+    padding: 0.8rem 1.6rem;
+    font-size: 16px;
+  }
+`;
+
+export const AboutContent = styled(motion.div)`
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  text-align: center;
+  background-color: ${({ theme }) => theme.background};
+  color: ${({ theme }) => theme.text};
+
+  @media (min-width: ${({ theme }) => theme.breakpoint.tablet}) {
+    padding: 3rem 2rem;
+  }
+
+  @media (min-width: ${({ theme }) => theme.breakpoint.desktop}) {
+    padding: 4rem 2rem;
   }
 `;
 
 export const SkillGridContainer = styled(motion.div)`
   margin: 0 auto;
-  padding: 2rem;
+  padding: 2rem 1rem;
   text-align: center;
   background-color: ${({ theme }) => theme.body};
   color: ${({ theme }) => theme.text};
+
+  @media (min-width: ${({ theme }) => theme.breakpoint.tablet}) {
+    padding: 3rem 2rem;
+  }
+
+  @media (min-width: ${({ theme }) => theme.breakpoint.desktop}) {
+    padding: 4rem 2rem;
+  }
 `;

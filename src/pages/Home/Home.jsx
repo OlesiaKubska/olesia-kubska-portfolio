@@ -6,11 +6,13 @@ import {
   ButtonSecondary,
   ButtonBox,
   SkillGridContainer,
+  AboutContent,
 } from "./Home.styled";
 import homeImage from "../../assets/images/Home/olesia-kubska.png";
 import { useTranslation } from "react-i18next";
 import { SkillGrid } from "../../components/SkillGrid";
 import Contact from "../../pages/Contact/Contact";
+import AboutHighlights from "../../components/AboutHighlights/AboutHighlights";
 
 const Home = () => {
   const { t } = useTranslation();
@@ -44,6 +46,14 @@ const Home = () => {
           </ButtonBox>
         </HomeContainer>
       </HomeBackground>
+      <AboutContent
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
+      >
+        <h3>{t("aboutMe")}</h3>
+        <AboutHighlights />
+      </AboutContent>
       <SkillGridContainer
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}

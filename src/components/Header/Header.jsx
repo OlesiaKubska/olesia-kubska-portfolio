@@ -9,6 +9,7 @@ import {
   BurgerMenuIcon,
   LanguageSwitcher,
   FlagIcon,
+  HeaderContent,
 } from "./Header.styled";
 import { useTranslation } from "react-i18next";
 
@@ -24,80 +25,82 @@ const Header = ({ theme, toggleTheme }) => {
 
   return (
     <HeaderContainer>
-      <Logo />
-      <BurgerMenuIcon onClick={toggleMenu}>☰</BurgerMenuIcon>
-      <Navigation $isOpen={isOpen}>
-        <StyledNavLink to="/" end onClick={toggleMenu}>
-          {t("home")}
-        </StyledNavLink>
-        <StyledNavLink to="/about" onClick={toggleMenu}>
-          {t("aboutMe")}
-        </StyledNavLink>
-        <StyledNavLink to="/projects" onClick={toggleMenu}>
-          {t("projectsPage")}
-        </StyledNavLink>
-        <StyledNavLink to="/achievements" onClick={toggleMenu}>
-          {t("achievements")}
-        </StyledNavLink>
-        <StyledNavLink to="/contact" onClick={toggleMenu}>
-          {t("contact")}
-        </StyledNavLink>
-      </Navigation>
+      <HeaderContent>
+        <Logo />
+        <BurgerMenuIcon onClick={toggleMenu}>☰</BurgerMenuIcon>
+        <Navigation $isOpen={isOpen}>
+          <StyledNavLink to="/" end onClick={toggleMenu}>
+            {t("home")}
+          </StyledNavLink>
+          <StyledNavLink to="/about" onClick={toggleMenu}>
+            {t("about")}
+          </StyledNavLink>
+          <StyledNavLink to="/projects" onClick={toggleMenu}>
+            {t("projectsPage")}
+          </StyledNavLink>
+          <StyledNavLink to="/achievements" onClick={toggleMenu}>
+            {t("achievements")}
+          </StyledNavLink>
+          <StyledNavLink to="/contact" onClick={toggleMenu}>
+            {t("contact")}
+          </StyledNavLink>
+        </Navigation>
 
-      <LanguageSwitcher>
-        <button onClick={() => changeLanguage("en")}>
-          EN
-          <FlagIcon>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 640 480"
-              width="20"
-              height="20"
-            >
-              <rect width="640" height="480" fill="#fff" />
-              <path fill="#012169" d="M0 0h640v480H0z" />
-              <path stroke="#fff" strokeWidth="40" d="M320 0v480M0 240h640" />
-              <path
-                stroke="#c8102e"
-                strokeWidth="30"
-                d="M320 0v480M0 240h640"
-              />
-            </svg>
-          </FlagIcon>
-        </button>
+        <LanguageSwitcher>
+          <button onClick={() => changeLanguage("en")}>
+            EN
+            <FlagIcon>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 640 480"
+                width="20"
+                height="20"
+              >
+                <rect width="640" height="480" fill="#fff" />
+                <path fill="#012169" d="M0 0h640v480H0z" />
+                <path stroke="#fff" strokeWidth="40" d="M320 0v480M0 240h640" />
+                <path
+                  stroke="#c8102e"
+                  strokeWidth="30"
+                  d="M320 0v480M0 240h640"
+                />
+              </svg>
+            </FlagIcon>
+          </button>
 
-        <button onClick={() => changeLanguage("pl")}>
-          PL
-          <FlagIcon>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 640 480"
-              width="20"
-              height="20"
-            >
-              <rect width="640" height="240" fill="#fff" />
-              <rect y="240" width="640" height="240" fill="#dc143c" />
-            </svg>
-          </FlagIcon>
-        </button>
+          <button onClick={() => changeLanguage("pl")}>
+            PL
+            <FlagIcon>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 640 480"
+                width="20"
+                height="20"
+              >
+                <rect width="640" height="240" fill="#fff" />
+                <rect y="240" width="640" height="240" fill="#dc143c" />
+              </svg>
+            </FlagIcon>
+          </button>
 
-        <button onClick={() => changeLanguage("uk")}>
-          UA
-          <FlagIcon>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 640 480"
-              width="20"
-              height="20"
-            >
-              <rect width="640" height="240" fill="#0057b7" />
-              <rect y="240" width="640" height="240" fill="#ffd700" />
-            </svg>
-          </FlagIcon>
-        </button>
-      </LanguageSwitcher>
+          <button onClick={() => changeLanguage("uk")}>
+            UA
+            <FlagIcon>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 640 480"
+                width="20"
+                height="20"
+              >
+                <rect width="640" height="240" fill="#0057b7" />
+                <rect y="240" width="640" height="240" fill="#ffd700" />
+              </svg>
+            </FlagIcon>
+          </button>
+        </LanguageSwitcher>
 
-      <ThemeToggle theme={theme} toggleTheme={toggleTheme} />
+        <ThemeToggle theme={theme} toggleTheme={toggleTheme} />
+      </HeaderContent>
     </HeaderContainer>
   );
 };

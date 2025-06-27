@@ -5,7 +5,8 @@ import { motion } from "framer-motion";
 export const ContactContainer = styled(motion.div)`
   display: flex;
   flex-direction: column;
-  padding: 2rem 1rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   gap: 2rem;
   background-color: ${({ theme }) => theme.background};
   text-align: center;
@@ -14,7 +15,14 @@ export const ContactContainer = styled(motion.div)`
   @media (min-width: ${({ theme }) => theme.breakpoint.tablet}) {
     flex-direction: row;
     justify-content: center;
-    padding: 3rem 4rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    gap: 1rem;
+  }
+
+  @media (min-width: ${({ theme }) => theme.breakpoint.desktop}) {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
   }
 `;
 
@@ -55,7 +63,7 @@ export const ProfileImage = styled.img`
   border-radius: 50%;
   object-fit: cover;
 
-  @media (min-width: ${({ theme }) => theme.breakpoint.tablet}) {
+  @media (min-width: ${({ theme }) => theme.breakpoint.desktop}) {
     width: 220px;
     height: 220px;
   }
@@ -65,7 +73,7 @@ export const RightSide = styled.div`
   width: 100%;
 
   @media (min-width: ${({ theme }) => theme.breakpoint.tablet}) {
-    width: 55%;
+    width: 45%;
   }
 `;
 
@@ -73,6 +81,7 @@ export const ContactForm = styled(Form)`
   display: flex;
   flex-direction: column;
   width: 100%;
+  padding: 0.5rem;
 
   input[type="text"],
   input[type="email"],

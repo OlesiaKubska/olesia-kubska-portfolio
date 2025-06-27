@@ -15,26 +15,39 @@
  "contactMe": "Contact Me",
  "downloadResume": "Download Resume",
  "aboutMeTitle": "About Me",
- "aboutDescription": "I am a dedicated Junior Full Stack Developer with two years of focused experience in backend technologies and modern frameworks such as Node, React, Angular, and SQL. Having transitioned from a background in music and arts, I bring a unique blend of creativity and technical skills to my work in developing robust backend solutions and dynamic front-end interfaces. I am currently enrolled in English courses to improve my speaking skills, aiming to achieve a solid C1 level. While I currently have a basic A2 level of English, I am continuously working to improve my communication skills. I am actively seeking a full-time position where I can leverage my backend development skills and continue to grow within modern web technologies. Known for my relentless curiosity and commitment to continual learning, I am eager to deepen my expertise and contribute to innovative projects.",
+ "aboutHighlights": {
+    "devSkills": "Full Stack Experience",
+    "devSkillsText": "Skilled in JavaScript, React, Angular, Node.js, SQL, MongoDB, and more through intensive training and real projects.",
+    "creativity": "Creative Mindset",
+    "creativityText": "My background in music and arts helps me approach problems with creativity and fresh ideas.",
+    "teamwork": "Team Collaboration",
+    "teamworkText": "Experienced in Agile teams, value communication, feedback, and shared success.",
+    "languages": "Multilingual Communication",
+    "languagesText": "Fluent in Ukrainian, Russian, Polish (B2), and improving English (currently B1).",
+    "learning": "Continuous Learner",
+    "learningText": "Always improving my technical and soft skills through courses, coding challenges, and feedback.",
+    "goals": "Motivated & Focused",
+    "goalsText": "Eager to contribute to impactful projects and grow as a developer in a professional team."
+  },
  "techSkills": "Tech Skills",
  "softSkills": "Soft Skills",
  "languages": "Languages",
  "workExperience": "Work Experience",
  "softSkillItems": {
-  "organized": "Organized",
-  "teamwork": "Teamwork",
-  "communication": "Communication",
-  "creative": "Creative",
-  "decisionMaking": "Decision-making",
-  "abilityToLearn": "Ability to Learn",
-  "timeManagement": "Time Management"
- },
+    "organized": "Organized",
+    "teamwork": "Teamwork",
+    "communication": "Communication",
+    "creative": "Creative",
+    "decisionMaking": "Decision-making",
+    "abilityToLearn": "Ability to Learn",
+    "timeManagement": "Time Management"
+  },
  "languagesList": {
-  "ukrainian": "Ukrainian - Native",
-  "russian": "Russian - Fluent",
-  "english": "English - Intermediate",
-  "polish": "Polish - Advanced (B2 Certificate)"
- },
+    "ukrainian": "Ukrainian - Native",
+    "russian": "Russian - Fluent",
+    "english": "English - Intermediate",
+    "polish": "Polish - Advanced (B2 Certificate)"
+  },
  "connect": "Let's connect!",
  "yourName": "Name",
  "yourEmail": "Email",
@@ -94,47 +107,47 @@
     "teacherDetail4": "Awarded and recognized for outstanding work",
     "teacherSchool": "Specialized School No. 106, Kyiv, Ukraine (2013–2022)"
   },
- "education": {
-  "title": "Education",
-  "items": [
-    {
-      "title": "“JavaScript Developer” | CERTIFICATE",
-      "description": [
-        "Collaborated on group projects simulating real-world development environments.",
-        "Gained practical experience in frontend and backend technologies. Participated in code reviews and Agile team work.",
-        "Completed postgraduate studies in JavaScript Development at Bialystok University of Technology."
-      ],
-      "school": "Bialystok University of Technology | Poland | October 2023 – July 2024"
-    },
-    {
-      "title": "“Full Stack Developer” | CERTIFICATE",
-      "description": [
-        "Participated in team projects, code reviews, and Agile collaboration.",
-        "Completed a comprehensive Full Stack Developer program focused on modern web technologies.",
-        "Training included frontend and backend development, teamwork, and practical project experience."
-      ],
-      "school": "IT School GolT | Ukraine | December 2022 – January 2024"
-    },
-    {
-      "title": "Master’s Diploma",
-      "description": [
-        "In 2016 completed the full course of National Pedagogical Dragomanov University",
-        "Obtained master's degree in the field of study “Education Institution Management”",
-        "Obtained qualification of Business, Office and Organization Manager (Education and Vocational Training Sphere)",
-        "Ukraine"
-      ],
-      "school": "National Pedagogical Dragomanov University"
-    },
-    {
-      "title": "Master’s Diploma",
-      "description": [
-        "In 2015 completed the full course of National Pedagogical Dragomanov University",
-        "Obtained master's degree in the field of study “Musical Art”",
-        "Obtained qualification of methods of Musical Education Teacher (Lecturer), Music Teacher and Choir Master",
-        "Ukraine"
-      ],
-      "school": "National Pedagogical Dragomanov University"
-    }
-  ]
-}
+  "education": {
+    "title": "Education",
+    "items": [
+      {
+        "title": "“JavaScript Developer” | CERTIFICATE",
+        "description": [
+          "Collaborated on group projects simulating real-world development environments.",
+          "Gained practical experience in frontend and backend technologies. Participated in code reviews and Agile team work.",
+          "Completed postgraduate studies in JavaScript Development at Bialystok University of Technology."
+        ],
+        "school": "Bialystok University of Technology | Poland | October 2023 – July 2024"
+      },
+      {
+        "title": "“Full Stack Developer” | CERTIFICATE",
+        "description": [
+          "Participated in team projects, code reviews, and Agile collaboration.",
+          "Completed a comprehensive Full Stack Developer program focused on modern web technologies.",
+          "Training included frontend and backend development, teamwork, and practical project experience."
+        ],
+        "school": "IT School GolT | Ukraine | December 2022 – January 2024"
+      },
+      {
+        "title": "Master’s Diploma",
+        "description": [
+          "In 2016 completed the full course of National Pedagogical Dragomanov University",
+          "Obtained master's degree in the field of study “Education Institution Management”",
+          "Obtained qualification of Business, Office and Organization Manager (Education and Vocational Training Sphere)",
+          "Ukraine"
+        ],
+        "school": "National Pedagogical Dragomanov University"
+      },
+      {
+        "title": "Master’s Diploma",
+        "description": [
+          "In 2015 completed the full course of National Pedagogical Dragomanov University",
+          "Obtained master's degree in the field of study “Musical Art”",
+          "Obtained qualification of methods of Musical Education Teacher (Lecturer), Music Teacher and Choir Master",
+          "Ukraine"
+        ],
+        "school": "National Pedagogical Dragomanov University"
+      }
+    ]
+  }
 }

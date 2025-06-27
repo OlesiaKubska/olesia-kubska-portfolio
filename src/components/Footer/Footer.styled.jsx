@@ -2,19 +2,10 @@ import styled from "styled-components";
 
 export const FooterContainer = styled.footer`
   background-color: ${({ theme }) => theme.body};
-  padding: 3rem 1rem 2rem;
-  text-align: center;
+  padding: 2rem 0;
   color: ${({ theme }) => theme.text};
   box-shadow: ${({ theme }) => theme.footerShadow};
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1.5rem;
   width: 100%;
-
-  @media (min-width: ${({ theme }) => theme.breakpoint.tablet}) {
-    padding: 4rem 2rem 2rem;
-  }
 `;
 
 export const FooterContent = styled.div`
@@ -23,11 +14,11 @@ export const FooterContent = styled.div`
   align-items: center;
   width: 100%;
   gap: 1rem;
+  padding: 0 0.5rem;
 
   @media (min-width: ${({ theme }) => theme.breakpoint.tablet}) {
     flex-direction: row;
     justify-content: space-between;
-    width: 100%;
   }
 `;
 
@@ -98,6 +89,7 @@ export const Copyright = styled.div`
   opacity: 0.75;
   text-align: center;
   color: ${({ theme }) => theme.text};
+  margin-top: 1rem;
 
   span {
     margin: 0 0.3rem;

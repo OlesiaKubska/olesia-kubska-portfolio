@@ -22,7 +22,7 @@ const LanguageGrid = () => {
           transition={{ duration: 0.5, delay: key * 0.05 }}
           viewport={{ once: true }}
         >
-          <span style={{ fontSize: "1.5rem", marginRight: "0.5rem" }}>
+          <span style={{ fontSize: "2rem", marginRight: "0.5rem" }}>
             {flags[key]}
           </span>
           {value}

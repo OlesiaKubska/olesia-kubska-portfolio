@@ -1,9 +1,4 @@
-import {
-  AboutContainer,
-  SkillsSection,
-  AboutImage,
-  AboutBox,
-} from "./About.styled";
+import { AboutContainer, SkillsSection, AboutImage } from "./About.styled";
 import { useTranslation } from "react-i18next";
 import {
   SkillGrid,
@@ -11,6 +6,7 @@ import {
   LanguageGrid,
 } from "../../components/SkillGrid";
 import aboutImage from "../../assets/images/about/aboutMe.jpg";
+import AboutHighlights from "../../components/AboutHighlights/AboutHighlights";
 
 const About = () => {
   const { t } = useTranslation();
@@ -23,10 +19,8 @@ const About = () => {
       transition={{ type: "spring", stiffness: 100 }}
     >
       <h2>{t("aboutMeTitle")}</h2>
-      <AboutBox>
-        <AboutImage src={aboutImage} alt="Olesia Kubska" />
-        <p>{t("aboutDescription")}</p>
-      </AboutBox>
+      <AboutImage src={aboutImage} alt="Olesia Kubska" />
+      <AboutHighlights />
       <SkillsSection
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}

@@ -6,6 +6,7 @@ import {
   FaUserAlt,
   FaProjectDiagram,
   FaEnvelopeOpenText,
+  FaAward,
 } from "react-icons/fa";
 import {
   FooterContainer,
@@ -34,11 +35,15 @@ const Footer = () => {
           </NavLink>
           <NavLink to="/about">
             <FaUserAlt style={{ marginRight: "6px" }} />
-            {t("aboutMe")}
+            {t("about")}
           </NavLink>
           <NavLink to="/projects">
             <FaProjectDiagram style={{ marginRight: "6px" }} />
             {t("projectsPage")}
+          </NavLink>
+          <NavLink to="/achievements">
+            <FaAward style={{ marginRight: "6px" }} />
+            {t("achievements")}
           </NavLink>
           <NavLink to="/contact">
             <FaEnvelopeOpenText style={{ marginRight: "6px" }} />
