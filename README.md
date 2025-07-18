@@ -32,6 +32,7 @@ Built with React + Vite, it showcases my featured projects, skills, and a little
 - Project cards with previews  
 - Swiper carousel for project section  
 - Contact section with working form
+- Multi-language support (Ukrainian 🇺🇦, English 🇬🇧, Polish 🇵🇱) via i18next
 
 ---
 
