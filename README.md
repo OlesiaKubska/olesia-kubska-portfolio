@@ -19,7 +19,7 @@ Built with React + Vite, it showcases my featured projects, skills, and a little
 ![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=white)
 ![Vite](https://img.shields.io/badge/-Vite-646CFF?logo=vite&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black)
-![SCSS](https://img.shields.io/badge/-SCSS-CC6699?logo=sass&logoColor=white)
+![styled-components](https://img.shields.io/badge/styled--components-pink?logo=styled-components&logoColor=white)
 ![Swiper.js](https://img.shields.io/badge/-Swiper.js-6332F6?logo=swiper&logoColor=white)
 
 ---
