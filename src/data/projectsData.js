@@ -2,6 +2,8 @@ import waterTracker from "../assets/images/projects/water-tracker.jpg";
 import cinemania from "../assets/images/projects/project-cinemania.png";
 import mimino from "../assets/images/projects/project-hotel.png";
 import projectWebImage from "../assets/images/projects/project-web.png";
+import projectAIImage from "../assets/images/projects/projectAIImage.png";
+import projectAIGeminiImage from "../assets/images/projects/projectAIGeminiImage.png";
 
 export const teamProjects = [
   {
@@ -34,6 +36,24 @@ export const teamProjects = [
 ];
 
 export const personalProjects = [
+  {
+    id: "AICalendar",
+    title: "projects.AICalendar.title",
+    image: projectAIImage,
+    stack: "projects.AICalendar.stack",
+    live: "https://aicalendar-gqcp.onrender.com",
+    repo: "https://github.com/OlesiaKubska/AICalendar",
+    description: "projects.AICalendar.description",
+  },
+  {
+    id: "MomBossFamilyPlanner",
+    title: "projects.MomBossFamilyPlanner.title",
+    image: projectAIGeminiImage,
+    stack: "projects.MomBossFamilyPlanner.stack",
+    live: "https://github.com/OlesiaKubska/KubskaOlesia",
+    repo: "https://github.com/OlesiaKubska/KubskaOlesia",
+    description: "projects.MomBossFamilyPlanner.description",
+  },
   {
     id: "webstudio",
     title: "projects.webstudio.title",

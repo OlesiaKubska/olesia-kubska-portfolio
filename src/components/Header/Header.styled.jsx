@@ -69,54 +69,15 @@ export const BurgerMenuIcon = styled.div`
   display: block;
   font-size: 2rem;
   cursor: pointer;
+  background-color: transparent;
+  color: ${({ theme }) => theme.buttonBackground};
+  transition: transform 0.3s;
 
   @media (min-width: ${({ theme }) => theme.breakpoint.desktop}) {
     display: none;
   }
-`;
-
-export const LanguageSwitcher = styled.div`
-  display: flex;
-  gap: 20px;
-
-  button {
-    background: none;
-    border: none;
-    cursor: pointer;
-    color: ${({ theme }) => theme.text};
-    font-size: 16px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 4px;
-    transition: color 0.3s, transform 0.3s text-decoration 0.3s;
-
-    &:hover {
-      text-decoration: underline;
-      color: ${({ theme }) => theme.textSecondary};
-      transform: scale(1.05);
-    }
-
-    @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
-      font-size: 0.9rem;
-    }
-  }
-`;
-
-export const FlagIcon = styled.div`
-  width: 20px;
-  height: 20px;
-  display: inline-block;
-  background-size: cover;
-  background-position: center;
-  transition: transform 0.3s color 0.3s;
 
   &:hover {
     transform: scale(1.05);
-  }
-
-  svg {
-    width: 100%;
-    height: 100%;
   }
 `;

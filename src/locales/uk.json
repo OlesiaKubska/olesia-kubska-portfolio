@@ -95,6 +95,16 @@
       "stack": "[HTML5, CSS3, JavaScript]",
       "description": "WEBSTUDIO був навчальним проєктом, який дав мені змогу застосувати та закріпити знання HTML5 і CSS3. Завдяки цьому проєкту я отримала практичний досвід створення адаптивних і візуально привабливих веб-сторінок. Цей проєкт став основою для зміцнення моїх навичок веброзробки та розуміння основ створення якісного онлайн-контенту."
     },
+    "AICalendar": {
+      "title": "AI КАЛЕНДАР",
+      "stack": "[.NET 8 ASP.NET Core WebAPI, PromptProcessor + MCP server, React + Vite + TypeScript, FullCalendar, Swagger, OpenAPI, Docker]",
+      "description": "AI Calendar - це ASP.NET Core WebAPI для управління особистими подіями календаря. Підтримує природні мовні запити, багатокористувацьке планування та може інтегруватися з LLM через MCP. Бекенд розгорнуто на Render, фронтенд на GitHub Pages."
+    },
+    "MomBossFamilyPlanner": {
+      "title": "ПЛАНЕР СІМ'Ї MOM BOSS",
+      "stack": "[Python, Streamlit, Google Gemini API, Google Calendar API]",
+      "description": "MomBoss Family Planner – Hackathon Agentic AI 2025. Ласкаво просимо до мого проєкту хакатону! Цей агент AI допомагає зайнятим мамам з кількома дітьми організувати змістовний сімейний час, використовуючи природні мовні команди для створення планів активностей та автоматичного планування подій у Google Calendar."
+    },
     "teamTitle": "Командні проєкти",
     "personalTitle": "Мої проєкти"
   },

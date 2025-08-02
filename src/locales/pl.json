@@ -86,6 +86,16 @@
       "stack": "[HTML5, CSS3, JavaScript]",
       "description": "WEBSTUDIO był projektem edukacyjnym, który umożliwił mi zastosowanie i utrwalenie wiedzy z zakresu HTML5 i CSS3. Dzięki temu projektowi zdobyłam praktyczne doświadczenie w tworzeniu responsywnych i atrakcyjnych wizualnie stron internetowych. Projekt ten stanowił fundament w rozwijaniu moich umiejętności web developerskich oraz zrozumieniu podstaw tworzenia angażujących treści online."
     },
+    "AICalendar": {
+      "title": "KALENDARZ AI",
+      "stack": "[.NET 8 ASP.NET Core WebAPI, PromptProcessor + MCP server, React + Vite + TypeScript, FullCalendar, Swagger, OpenAPI, Docker]",
+      "description": "Kalendarz AI to ASP.NET Core WebAPI do zarządzania osobistymi wydarzeniami kalendarza. Obsługuje naturalne językowe polecenia, planowanie wieloużytkownikowe i może integrować się z LLM przez MCP. Backend jest wdrożony na Render, frontend na GitHub Pages."
+    },
+    "MomBossFamilyPlanner": {
+      "title": "PLANER RODZINNY MOM BOSS",
+      "stack": "[Python, Streamlit, Google Gemini API, Google Calendar API]",
+      "description": "Planer Rodzinny Mom Boss – Hackathon Agentic AI 2025. Witaj w moim projekcie hackathonowym! Ten agent AI pomaga zapracowanym mamom z wieloma dziećmi organizować wartościowy czas rodzinny, wykorzystując naturalne polecenia do generowania planów aktywności i automatycznego planowania wydarzeń w Google Calendar."
+    },
     "teamTitle": "Projekty zespołowe",
     "personalTitle": "Moje projekty"
   },

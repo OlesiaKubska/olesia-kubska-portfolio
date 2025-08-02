@@ -21,14 +21,14 @@ export const StyledButton = styled.button`
 
 export const StyledButtonSecondary = styled.button`
   padding: 0.8rem 1.6rem;
-  background: transparent;
+  background-color: transparent;
   color: ${({ theme }) => theme.buttonBackground};
   border: 2px solid ${({ theme }) => theme.buttonBackground};
   border-radius: 8px;
   font-weight: 600;
   cursor: pointer;
   box-shadow: ${({ theme }) => theme.boxShadow};
-  transition: background-color 0.3s, transform 0.3s, color 0.3s, border 0.3s;
+  transition: background-color 0.3s, transform 0.3s, color 0.3s;
 
   &:hover {
     background-color: ${({ theme }) => theme.buttonBackground};
