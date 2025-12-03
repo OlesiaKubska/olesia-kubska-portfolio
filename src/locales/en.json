@@ -96,12 +96,19 @@
       "stack": "[Python, Streamlit,  Google Gemini API, Google Calendar API]",
       "description": "MomBoss Family Planner – Agentic AI Hackathon 2025. Welcome to my hackathon project! This AI agent helps busy moms with multiple children organize meaningful family time by using natural language input to generate activity plans and automatically schedule events in Google Calendar."
     },
+    "Commercial": {
+      "title": "VITA VOICE",
+      "stack": "[Next.js, React, TypeScript, TailwindCSS, Framer Motion, Formik, Yup, REST API integration, responsive design, Strapi CMS, Node.js, TypeScript, PostgreSQL, REST API, Cloudinary, Render deployment, headless CMS architecture]",
+      "description": "Vita Voice is a modern full-stack web platform designed for vocal coaches and their clients. The project includes a responsive frontend built with Next.js, TypeScript, TailwindCSS, Framer Motion, and Formik for seamless user interaction, dynamic animations, and accessibility-focused UI. The backend is powered by Strapi CMS with TypeScript and PostgreSQL, providing a structured headless API for managing blog content, user submissions, categories, and media. The system integrates Cloudinary for image handling and is deployed on Render. Together, the frontend and backend deliver a smooth, production-ready experience that supports content management, contact form submissions, and scalable future features."
+    },
     "teamTitle": "Team Projects",
-    "personalTitle": "My Projects"
+    "personalTitle": "My Projects",
+    "commercialTitle": "Commercial Projects"
   },
   "buttons": {
     "team": "Team",
-    "personal": "Personal"
+    "personal": "Personal",
+    "commercial": "Commercial"
   },
   "experience": {
     "title": "Work Experience",

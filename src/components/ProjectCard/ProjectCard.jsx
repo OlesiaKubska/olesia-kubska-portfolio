@@ -6,6 +6,7 @@ import {
   ProjectImage,
   ProjectContent,
   ProjectLinks,
+  ImageWrapper,
 } from "./ProjectCard.styled";
 
 const ProjectCard = ({ project }) => {
@@ -13,7 +14,9 @@ const ProjectCard = ({ project }) => {
 
   return (
     <CardContainer>
-      <ProjectImage src={project.image} alt={t(project.title)} />
+      <ImageWrapper>
+        <ProjectImage src={project.image} alt={t(project.title)} />
+      </ImageWrapper>
       <ProjectContent>
         <h3>{t(project.title)}</h3>
         <p>{t(project.stack)}</p>

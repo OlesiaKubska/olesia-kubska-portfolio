@@ -23,19 +23,22 @@ export const CardContainer = styled(motion.div)`
   }
 `;
 
-export const ProjectImage = styled.img`
+export const ImageWrapper = styled.div`
   width: 100%;
-  max-height: 240px;
-  object-fit: cover;
-
-  @media (min-width: ${({ theme }) => theme.breakpoint.tablet}) {
-    max-height: 100%;
-  }
+  overflow: hidden;
 
   @media (min-width: ${({ theme }) => theme.breakpoint.desktop}) {
     width: 50%;
-    max-height: 100%;
+    aspect-ratio: 4 / 3;
+    flex-shrink: 0;
   }
+`;
+
+export const ProjectImage = styled.img`
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
 `;
 
 export const ProjectContent = styled.div`

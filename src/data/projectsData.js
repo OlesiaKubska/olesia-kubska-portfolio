@@ -4,6 +4,7 @@ import mimino from "../assets/images/projects/project-hotel.png";
 import projectWebImage from "../assets/images/projects/project-web.png";
 import projectAIImage from "../assets/images/projects/projectAIImage.png";
 import projectAIGeminiImage from "../assets/images/projects/projectAIGeminiImage.png";
+import projectCommercialImage from "../assets/images/projects/comm-project.jpg";
 
 export const teamProjects = [
   {
@@ -62,5 +63,17 @@ export const personalProjects = [
     live: "https://olesiakubska.github.io/WEBSTUDIO/",
     repo: "https://github.com/OlesiaKubska/WEBSTUDIO",
     description: "projects.webstudio.description",
+  },
+];
+
+export const commercialProjects = [
+  {
+    id: "Commercial",
+    title: "projects.Commercial.title",
+    image: projectCommercialImage,
+    stack: "projects.Commercial.stack",
+    live: "https://www.vitavoice.pl",
+    repo: "https://github.com/OlesiaKubska/vita-voice-coach-frontend",
+    description: "projects.Commercial.description",
   },
 ];

@@ -2,7 +2,11 @@ import { useRef } from "react";
 import { ProjectsContainer, ToggleButtons } from "./Projects.styled";
 import { useTranslation } from "react-i18next";
 import ProjectCard from "../../components/ProjectCard/ProjectCard";
-import { teamProjects, personalProjects } from "../../data/projectsData";
+import {
+  teamProjects,
+  personalProjects,
+  commercialProjects,
+} from "../../data/projectsData";
 import PrimaryButton from "../../components/Buttons/PrimaryButton";
 import SecondaryButton from "../../components/Buttons/SecondaryButton";
 
@@ -10,6 +14,7 @@ const Projects = () => {
   const { t } = useTranslation();
   const teamRef = useRef(null);
   const personalRef = useRef(null);
+  const commercialRef = useRef(null);
 
   const scrollTo = (ref) => {
     ref.current?.scrollIntoView({ behavior: "smooth" });
@@ -26,14 +31,24 @@ const Projects = () => {
         <PrimaryButton onClick={() => scrollTo(teamRef)}>
           {t("buttons.team")}
         </PrimaryButton>
-        <SecondaryButton onClick={() => scrollTo(personalRef)}>
-          {t("buttons.personal")}
+        <SecondaryButton onClick={() => scrollTo(commercialRef)}>
+          {t("buttons.commercial")}
         </SecondaryButton>
+        <PrimaryButton onClick={() => scrollTo(personalRef)}>
+          {t("buttons.personal")}
+        </PrimaryButton>
       </ToggleButtons>
 
       <section ref={teamRef} id="team">
         <h2>{t("projects.teamTitle")}</h2>
         {teamProjects.map((project) => (
+          <ProjectCard key={project.id} project={project} />
+        ))}
+      </section>
+
+      <section ref={commercialRef} id="commercial">
+        <h2>{t("projects.commercialTitle")}</h2>
+        {commercialProjects.map((project) => (
           <ProjectCard key={project.id} project={project} />
         ))}
       </section>
